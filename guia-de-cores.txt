@@ -1,0 +1,105 @@
+--color-background
+
+Cor predominante do site.
+
+#FAF8F5
+
+Um off-white quente e sofisticado.
+
+-------------------------------------
+
+--color-surface
+#F3EEE8
+
+Para alternar seções.
+
+Exemplo:
+
+Sobre
+Depoimentos
+FAQ
+
+Isso cria separação visual sem parecer um bloco cinza.
+
+-------------------------------------
+
+--color-primary
+#6B4F3B
+
+Cor principal da marca.
+
+Usar em:
+
+botões
+links ativos
+ícones
+títulos importantes
+
+-------------------------------------
+
+--color-secondary
+#8A6A52
+
+Para:
+
+subtítulos
+elementos decorativos
+hover de links
+
+-------------------------------------
+
+--color-accent
+#C8B6A6
+
+Tom bege sofisticado.
+
+Ideal para:
+
+linhas divisórias
+selos
+fundos de pequenos elementos
+
+-------------------------------------
+
+--color-text
+#2F241D
+
+Texto principal.
+
+Mais elegante que preto puro.
+
+-------------------------------------
+
+--color-text-light
+#6F6259
+
+Parágrafos.
+
+Menos agressivo visualmente.
+
+-------------------------------------
+
+Botões
+Primário
+background: var(--color-primary);
+color: var(--color-white);
+
+Resultado:
+
+☕ Marrom café elegante com texto branco.
+
+-------------------------------------
+
+Hover
+background: var(--color-primary-hover);
+
+Resultado:
+
+Tom mais escuro e sofisticado.
+
+-------------------------------------
+
+Secundário
+background: transparent;
+border: 1px solid var(--color-primary);
+color: var(--color-primary);
