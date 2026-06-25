@@ -1,0 +1,46 @@
+:root {
+    /* Fundo principal */
+    --color-background: #FAF8F5;
+
+    /* Fundo Secundário */
+    --color-secondary-background: #4A372A;
+
+    /* Fundo de seções alternadas */
+    --color-surface: #F3EEE8;
+
+    /* Cards */
+    --color-card: #FFFFFF;
+
+    /* Cor principal da marca */
+    --color-primary: #6B4F3B;
+
+    /* Hover da cor principal */
+    --color-primary-hover: #5A4130;
+
+    /* Cor secundária */
+    --color-secondary: #8A6A52;
+
+    /* Destaques suaves */
+    --color-accent: #C8B6A6;
+
+    /* Bordas */
+    --color-border: #E5DDD5;
+
+    /* Texto principal */
+    --color-text: #2F241D;
+
+    /* Texto secundário */
+    --color-text-light: #6F6259;
+
+    /* Branco puro */
+    --color-white: #FFFFFF;
+
+    /* Sucesso */
+    --color-success: #5E7A60;
+
+    /* Sombras */
+    --shadow-soft: 0 4px 20px rgba(47, 36, 29, 0.08);
+
+    /* Transições */
+    --transition-default: 0.3s ease;
+}

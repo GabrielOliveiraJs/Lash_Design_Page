@@ -1,0 +1,39 @@
+.navigation-list {
+    display: flex;
+}
+
+.navigation-item {
+    margin: 0 0.4rem;
+}
+
+.navigation-link {
+    padding: 0.2rem 0.4rem;
+    color: var(--color-text);
+    font-size: 1.2em;
+    transition: 0.2s ease all;
+}
+
+.navigation-link:hover {
+    border-bottom: 2px solid var(--color-text-light);
+    color: var(--color-text-light);
+}
+
+.navigation-link.active {
+    border-bottom: 2px solid var(--color-text-light);
+}
+
+
+
+.menu-toggle {
+    display: none;
+    padding: 0.2rem 0.4rem;
+    font-size: 1.2em;
+    background: transparent;
+    color: var(--color-primary);
+    border: 2px solid var(--color-border);
+    cursor: pointer;
+}
+
+.mobile-cta {
+    display: none;
+}

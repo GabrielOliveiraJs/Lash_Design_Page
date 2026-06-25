@@ -1,0 +1,56 @@
+    @media screen and (max-width: 767px) {
+        .navbar {
+            justify-content: space-between;
+            padding: 0.8rem 1rem;
+            position: relative;
+        }
+
+        .menu-toggle {
+            display: block;
+            z-index: 1001;
+        }
+
+        .desktop-cta {
+            display: none;
+        }
+
+        .navigation-list {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background-color: var(--color-card);
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem 0;
+            gap: 1rem;
+            box-shadow: var(--shadow-soft);
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-20px);
+            transition: all 0.3s ease;
+        }
+
+        .navigation-list.active {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .navigation-item {
+            margin: 0;
+        }
+
+        .mobile-cta {
+            display: block;
+            margin-top: 1rem;
+        }
+
+        /* Rodapé */
+        .footer-logo {
+            width: 4rem;
+        }
+    }
+
+    @media screen and (max-width: 400px) {}
