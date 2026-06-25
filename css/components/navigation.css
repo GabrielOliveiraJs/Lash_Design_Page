@@ -9,7 +9,7 @@
 .navigation-link {
     padding: 0.2rem 0.4rem;
     color: var(--color-text);
-    font-size: 1.2em;
+    font-size: var(--font-size-lg);
     transition: var(--transition-default);
     position: relative;
 }
@@ -41,7 +41,7 @@
 .menu-toggle {
     display: none;
     padding: 0.2rem 0.4rem;
-    font-size: 1.2em;
+    font-size: var(--font-size-lg);
     background: transparent;
     color: var(--color-primary);
     border: 2px solid var(--color-border);

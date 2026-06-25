@@ -1,9 +1,9 @@
 .cta-button {
-    border: 2px solid var(--color-border);
+    border: var(--btn-border-primary);
+    border-radius: var(--btn-rounded-borders-primary);
     background-color: var(--color-primary);
     color: var(--color-white);
     padding: 0.2rem 0.4rem;
-    border-radius: 5px;
     cursor: pointer;
     transition: var(--transition-default);
 }

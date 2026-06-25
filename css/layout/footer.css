@@ -24,7 +24,7 @@
 }
 
 .footer-column .footer-titles {
-    font-size: 1.2em;
+    font-size: var(--font-size-lg);
     color: var(--color-accent);
     margin-bottom: 0.5rem;
 }
@@ -52,7 +52,7 @@
 }
 
 .footer-phrase {
-    font-size: 1em;
+    font-size: var(--font-size-md);
     margin-left: 1rem;
     color: var(--color-accent);
 }
@@ -63,5 +63,5 @@
 
 .copyright-text {
     color: var(--color-accent);
-    font-size: 0.8em;
+    font-size: var(--font-size-sm);
 }
