@@ -2,9 +2,9 @@
     width: 100%;
     margin-top: 2rem;
     padding: 0.5rem;
-    background-color: var(--color-secondary-background);
+    background-color: var(--color-bg-secondary);
     color: var(--color-accent);
-    box-shadow: 0px -2px 5px rgba(34, 34, 34, 0.8);
+    box-shadow: var(--shadow-footer);
 }
 
 .footer-container {
@@ -34,7 +34,7 @@
 }
 
 .footer-column .footer-lists .footer-items .footer-links {
-    transition: 0.2s ease all;
+    transition: var(--transition-default);
 }
 
 .footer-column .footer-lists .footer-items .footer-links:hover {

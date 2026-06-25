@@ -5,7 +5,7 @@
     padding: 0.2rem 0.4rem;
     border-radius: 5px;
     cursor: pointer;
-    transition: 0.2s ease all;
+    transition: var(--transition-default);
 }
 
 .cta-button:hover {

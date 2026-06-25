@@ -10,7 +10,7 @@
     padding: 0.2rem 0.4rem;
     color: var(--color-text);
     font-size: 1.2em;
-    transition: 0.2s ease all;
+    transition: var(--transition-default);
 }
 
 .navigation-link:hover {

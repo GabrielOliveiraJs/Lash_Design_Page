@@ -1,12 +1,12 @@
 :root {
     /* Fundo principal */
-    --color-background: #FAF8F5;
+    --color-bg-primary: #FAF8F5;
 
     /* Fundo Secundário */
-    --color-secondary-background: #4A372A;
+    --color-bg-secondary: #4A372A;
 
     /* Fundo de seções alternadas */
-    --color-surface: #F3EEE8;
+    --color-bg-surface: #F3EEE8;
 
     /* Cards */
     --color-card: #FFFFFF;
@@ -40,7 +40,8 @@
 
     /* Sombras */
     --shadow-soft: 0 4px 20px rgba(47, 36, 29, 0.08);
+    --shadow-footer: 0px -2px 5px rgba(34, 34, 34, 0.8);
 
     /* Transições */
-    --transition-default: 0.3s ease;
+    --transition-default: 0.2s ease all;
 }
