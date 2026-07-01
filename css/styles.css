@@ -23,5 +23,5 @@
 /* Responsive */
 @import url("./responsive/tablet.css");
 @import url("./responsive/mobile.css");
-@import url("./responsive/tablet.css");
-@import url("./responsive/mobile.css");
+@import url("./responsive/products-page/tablet.css");
+@import url("./responsive/products-page/mobile.css");

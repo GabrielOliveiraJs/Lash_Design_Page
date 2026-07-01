@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=0, initial-scale=1.0" />
-    <title>May Souza Beauty -Produtos Recomendados</title>
+    <title>May Souza Beauty - Produtos Recomendados</title>
     <script
       src="https://kit.fontawesome.com/0c2e64d2bb.js"
       crossorigin="anonymous"
@@ -60,8 +60,29 @@
     </header>
 
     <!--------------------- Conteúdo --------------------------->
-    <section class="container">
-      <div class="cards-container">
+    <div class="container">
+      <section class="products-title-container">
+        <h1 class="links-title">Produtos Recomendados</h1>
+        <p class="links-text">
+          Materiais selecionados para profissionais e iniciantes na área de
+          extensão de cílios.
+        </p>
+      </section>
+      <section class="products-disclaimer-container">
+        <img
+          class="profile-img"
+          src="https://picsum.photos/seed/lash2/200/200"
+          alt=""
+        />
+        <div class="disclaimer-texts-container">
+          <p class="disclaimer-text">
+            Todos os produtos dessa página foram selecionado com base na minha
+            experiência profissional e são recomendados para minhas alunas.
+          </p>
+          <span class="disclaimer-signature">May Souza</span>
+        </div>
+      </section>
+      <section class="cards-container">
         <template id="card-template">
           <div class="card">
             <img
@@ -78,8 +99,8 @@
             <a class="card-link" href="#" target="_blank">Comprar na Shopee</a>
           </div>
         </template>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <footer class="footer">
       <div class="footer-container">
@@ -136,6 +157,7 @@
         </p>
       </div>
     </footer>
-    <script src="../js/script.js"></script>
+    <script src="../js/menu.js"></script>
+    <script src="../js/products_links.js"></script>
   </body>
 </html>

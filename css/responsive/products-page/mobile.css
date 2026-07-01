@@ -1,0 +1,10 @@
+@media screen and (max-width: 767px) {
+    .products-disclaimer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-img {
+        margin-bottom: 0.8rem;
+    }
+}
