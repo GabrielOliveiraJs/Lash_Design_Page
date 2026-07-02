@@ -2,7 +2,7 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=0, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>May Souza Beauty - Produtos Recomendados</title>
     <script
       src="https://kit.fontawesome.com/0c2e64d2bb.js"
@@ -12,13 +12,15 @@
   </head>
   <body>
     <header>
-      <nav class="navbar">
+      <nav class="navbar" aria-label="Menu principal">
         <div class="logo-container">
-          <img
-            class="logo"
-            src="../images/logo.jpeg"
-            alt="Logo de May Souza Beauty"
-          />
+          <a href="./index.html">
+            <img
+              class="logo"
+              src="../images/logo.jpeg"
+              alt="Logo de May Souza Beauty"
+            />
+          </a>
         </div>
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -39,6 +41,7 @@
 
           <!-- CTA Mobile -->
           <li class="mobile-cta">
+            <!--!TODO: Alterar o <button> para <a>-->
             <button class="cta-button">
               Agendar Atendimento
               <i class="fa-regular fa-calendar-days"></i>
@@ -47,20 +50,26 @@
         </ul>
 
         <!-- CTA Desktop -->
+        <!--!TODO: Alterar o <button> para <a>-->
         <button class="cta-button desktop-cta">
           Agendar Atendimento
           <i class="fa-regular fa-calendar-days"></i>
         </button>
 
         <!-- Botão Toggle Navbar -->
-        <button class="menu-toggle" aria-label="Abrir menu">
+        <button
+          class="menu-toggle"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+          aria-controls="navigation"
+        >
           <i class="fa-solid fa-bars"></i>
         </button>
       </nav>
     </header>
 
     <!--------------------- Conteúdo --------------------------->
-    <div class="container">
+    <main class="container">
       <section class="products-title-container">
         <h1 class="links-title">Produtos Recomendados</h1>
         <p class="links-text">
@@ -68,11 +77,18 @@
           extensão de cílios.
         </p>
       </section>
-      <section class="products-disclaimer-container">
+      <section
+        class="products-disclaimer-container"
+        aria-labelledby="recommendation-title"
+      >
+        <h2 id="recommendation-title" class="sr-only">
+          <!-- Produtos recomendados -->
+          <!--Se o título não precisa aparecer visualmente, ele pode ficar escondido apenas visualmente.-->
+        </h2>
         <img
           class="profile-img"
           src="https://picsum.photos/seed/lash30/600/600"
-          alt=""
+          alt="Foto da Lash Designer May Souza"
         />
         <div class="disclaimer-texts-container">
           <p class="disclaimer-text">
@@ -84,7 +100,7 @@
       </section>
       <section class="cards-container">
         <template id="card-template">
-          <div class="card">
+          <article class="card">
             <img
               class="card-image"
               src="https://picsum.photos/seed/lash1/600/600"
@@ -97,14 +113,14 @@
             </p>
             <span class="card-tag">Recomendado pela May</span>
             <a class="card-link" href="#" target="_blank">Comprar na Shopee</a>
-          </div>
+          </article>
         </template>
       </section>
-    </div>
+    </main>
 
     <footer class="footer">
       <div class="footer-container">
-        <div class="footer-column logo-and-phrase">
+        <section class="footer-column logo-and-phrase">
           <img
             class="footer-logo"
             src="../images/logo.jpeg"
@@ -114,8 +130,8 @@
             Especialista em extensão de cílios e formação profissional para
             novas lash designers.
           </p>
-        </div>
-        <div class="footer-column">
+        </section>
+        <nav class="footer-column">
           <h5 class="footer-titles">Navegação</h5>
           <ul class="footer-lists">
             <li class="footer-items">
@@ -134,8 +150,8 @@
               <a class="footer-links" href="#">Contato</a>
             </li>
           </ul>
-        </div>
-        <div class="footer-column">
+        </nav>
+        <section class="footer-column">
           <h5 class="footer-titles">Contato</h5>
           <ul class="footer-lists">
             <li class="footer-items">
@@ -149,7 +165,7 @@
             </li>
             <li class="footer-items">Cidade (Presidente Prudente - SP)</li>
           </ul>
-        </div>
+        </section>
       </div>
       <div class="copyright-container">
         <p class="copyright-text">
