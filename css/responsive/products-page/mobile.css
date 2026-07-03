@@ -5,6 +5,6 @@
     }
 
     .disclaimer-img {
-        margin-bottom: 0.8rem;
+        margin-bottom: var(--space-sm);
     }
 }

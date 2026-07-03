@@ -1,7 +1,7 @@
     @media screen and (max-width: 767px) {
         .navbar {
             justify-content: space-between;
-            padding: 0.8rem 1rem;
+            padding: var(--space-sm);
             position: relative;
         }
 
@@ -22,8 +22,8 @@
             background-color: var(--color-card);
             flex-direction: column;
             align-items: center;
-            padding: 2rem 0;
-            gap: 1rem;
+            padding: var(--space-md) 0;
+            gap: var(--space-sm);
             box-shadow: var(--shadow-soft);
             z-index: 1000;
             opacity: 0;
@@ -56,7 +56,7 @@
 
         .mobile-navigation-cta {
             display: block;
-            margin-top: 1rem;
+            margin-top: var(--space-sm);
         }
 
         /* Rodapé */

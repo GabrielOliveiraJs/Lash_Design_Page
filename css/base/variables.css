@@ -56,4 +56,14 @@
     --font-size-md: 1em;
     --font-size-lg: 1.2em;
     --font-size-xlg: 2em;
+
+    /* Espaçamentos */
+    --space-xs: .5rem;
+    --space-sm: 1rem;
+    --space-md: 2rem;
+    --space-lg: 4rem;
+    --space-xl: 6rem;
+    --space-xxl: 8rem;
+    --btn-padding: 0.2rem 0.4rem;
+    --btn-padding-lg: 0.4rem 0.6rem;
 }
