@@ -1,5 +1,5 @@
 /* Inclusão dos cards na página products */
-const cardsContainer = document.querySelector(".cards-container");
+const cardsContainer = document.querySelector(".cards-grid");
 const cardTemplate = document.querySelector("#card-template");
 
 async function carregarDados() {
@@ -24,8 +24,8 @@ async function iniciar() {
     const card = cardTemplate.content.cloneNode(true);
 
     // card.classList.remove("card-model");
-    card.querySelector(".card-image").src = product.imagem;
-    card.querySelector(".card-image").alt = product.nome;
+    card.querySelector(".product-card-image").src = product.imagem;
+    card.querySelector(".product-card-image").alt = product.nome;
     card.querySelector(".card-title").textContent = product.nome;
     card.querySelector(".card-description").textContent = product.descricao;
     card.querySelector(".card-tag").textContent = product.recomendacao;

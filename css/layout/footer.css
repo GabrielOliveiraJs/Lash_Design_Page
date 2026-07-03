@@ -29,15 +29,15 @@
     margin-bottom: 0.5rem;
 }
 
-.footer-column .footer-lists .footer-items {
+.footer-column .footer-list .footer-item {
     line-height: 2;
 }
 
-.footer-column .footer-lists .footer-items .footer-links {
+.footer-column .footer-list .footer-item .footer-links {
     transition: var(--transition-default);
 }
 
-.footer-column .footer-lists .footer-items .footer-links:hover {
+.footer-column .footer-list .footer-item .footer-links:hover {
     color: var(--color-secondary);
 }
 

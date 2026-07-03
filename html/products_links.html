@@ -13,7 +13,7 @@
   <body>
     <header>
       <nav class="navbar" aria-label="Menu principal">
-        <div class="logo-container">
+        <div class="logo">
           <a href="./index.html">
             <img
               class="logo"
@@ -40,7 +40,7 @@
           </li>
 
           <!-- CTA Mobile -->
-          <li class="mobile-cta">
+          <li class="mobile-navigation-cta">
             <!--!TODO: Alterar o <button> para <a>-->
             <button class="cta-button">
               Agendar Atendimento
@@ -71,14 +71,14 @@
     <!--------------------- Conteúdo --------------------------->
     <main class="container">
       <section class="products-title-container">
-        <h1 class="links-title">Produtos Recomendados</h1>
-        <p class="links-text">
+        <h1 class="products-page-title">Produtos Recomendados</h1>
+        <p class="products-page-subtitle">
           Materiais selecionados para profissionais e iniciantes na área de
           extensão de cílios.
         </p>
       </section>
       <section
-        class="products-disclaimer-container"
+        class="disclaimer"
         aria-labelledby="recommendation-title"
       >
         <h2 id="recommendation-title" class="sr-only">
@@ -86,11 +86,11 @@
           <!--Se o título não precisa aparecer visualmente, ele pode ficar escondido apenas visualmente.-->
         </h2>
         <img
-          class="profile-img"
+          class="disclaimer-img"
           src="https://picsum.photos/seed/lash30/600/600"
           alt="Foto da Lash Designer May Souza"
         />
-        <div class="disclaimer-texts-container">
+        <div class="disclaimer-content">
           <p class="disclaimer-text">
             Todos os produtos dessa página foram selecionado com base na minha
             experiência profissional e são recomendados para minhas alunas.
@@ -98,11 +98,11 @@
           <span class="disclaimer-signature">May Souza</span>
         </div>
       </section>
-      <section class="cards-container">
+      <section class="cards-grid">
         <template id="card-template">
           <article class="card">
             <img
-              class="card-image"
+              class="product-card-image"
               src="https://picsum.photos/seed/lash1/600/600"
               alt="card template"
             />
@@ -133,37 +133,37 @@
         </section>
         <nav class="footer-column">
           <h5 class="footer-titles">Navegação</h5>
-          <ul class="footer-lists">
-            <li class="footer-items">
+          <ul class="footer-list">
+            <li class="footer-item">
               <a class="footer-links" href="#">Início</a>
             </li>
-            <li class="footer-items">
+            <li class="footer-item">
               <a class="footer-links" href="#">Sobre</a>
             </li>
-            <li class="footer-items">
+            <li class="footer-item">
               <a class="footer-links" href="#">Serviços</a>
             </li>
-            <li class="footer-items">
+            <li class="footer-item">
               <a class="footer-links" href="#">Produtos</a>
             </li>
-            <li class="footer-items">
+            <li class="footer-item">
               <a class="footer-links" href="#">Contato</a>
             </li>
           </ul>
         </nav>
         <section class="footer-column">
           <h5 class="footer-titles">Contato</h5>
-          <ul class="footer-lists">
-            <li class="footer-items">
+          <ul class="footer-list">
+            <li class="footer-item">
               <a class="footer-links" href="#">WhatsApp</a>
             </li>
-            <li class="footer-items">
+            <li class="footer-item">
               <a class="footer-links" href="#">Instagram</a>
             </li>
-            <li class="footer-items">
+            <li class="footer-item">
               <a class="footer-links" href="#">E-mail</a>
             </li>
-            <li class="footer-items">Cidade (Presidente Prudente - SP)</li>
+            <li class="footer-item">Cidade (Presidente Prudente - SP)</li>
           </ul>
         </section>
       </div>

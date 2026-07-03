@@ -32,7 +32,7 @@
             transition: var(--transition-default);
         }
 
-        .navigation-list.active {
+        .navigation-list.is-active {
             opacity: 1;
             visibility: visible;
             transform: translateY(0);
@@ -54,7 +54,7 @@
             width: 0;
         }
 
-        .mobile-cta {
+        .mobile-navigation-cta {
             display: block;
             margin-top: 1rem;
         }

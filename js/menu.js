@@ -4,10 +4,10 @@ let navbarLinks = document.querySelectorAll(".navigation-link");
 navbarLinks.forEach((link) => {
   link.addEventListener("click", () => {
     navbarLinks.forEach((item) => {
-      item.classList.remove("active");
+      item.classList.remove("is-active");
     });
 
-    link.classList.add("active");
+    link.classList.add("is-active");
   });
 });
 
@@ -17,17 +17,17 @@ const navList = document.querySelector(".navigation-list");
 const navLinks = document.querySelectorAll(".navigation-link");
 
 function abrirMenu() {
-  navList.classList.add("active");
+  navList.classList.add("is-active");
   menuToggle.innerHTML = '<i class="fa-solid fa-xmark"></i>';
 }
 
 function fecharMenu() {
-  navList.classList.remove("active");
+  navList.classList.remove("is-active");
   menuToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
 }
 
 menuToggle.addEventListener("click", () => {
-  if (navList.classList.contains("active")) {
+  if (navList.classList.contains("is-active")) {
     fecharMenu();
   } else {
     abrirMenu();
