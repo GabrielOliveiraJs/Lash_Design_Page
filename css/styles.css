@@ -11,6 +11,7 @@
 /* Components */
 @import url("./components/navigation.css");
 @import url("./components/buttons.css");
+@import url("./components/accordions.css");
 
 /* Sections */
 @import url("./sections/hero.css");
@@ -19,6 +20,7 @@
 
 /* Products Page */
 @import url("./sections/products-page/products-list.css");
+@import url("./sections/products-page/course-cta.css");
 
 /* Responsive */
 @import url("./responsive/tablet.css");

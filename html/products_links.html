@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>May Souza Beauty - Produtos Recomendados</title>
+    <!-- <link rel="icon" type="image/png" href="./images/favicon.png"> -->
     <script
       src="https://kit.fontawesome.com/0c2e64d2bb.js"
       crossorigin="anonymous"
@@ -70,51 +71,199 @@
 
     <!--------------------- Conteúdo --------------------------->
     <main class="container">
-      <section class="products-title-container">
-        <h1 class="products-page-title">Produtos Recomendados</h1>
-        <p class="products-page-subtitle">
-          Materiais selecionados para profissionais e iniciantes na área de
-          extensão de cílios.
-        </p>
-      </section>
-      <section
-        class="disclaimer"
-        aria-labelledby="recommendation-title"
-      >
-        <h2 id="recommendation-title" class="sr-only">
-          <!-- Produtos recomendados -->
-          <!--Se o título não precisa aparecer visualmente, ele pode ficar escondido apenas visualmente.-->
-        </h2>
-        <img
-          class="disclaimer-img"
-          src="https://picsum.photos/seed/lash30/600/600"
-          alt="Foto da Lash Designer May Souza"
-        />
-        <div class="disclaimer-content">
-          <p class="disclaimer-text">
-            Todos os produtos dessa página foram selecionado com base na minha
-            experiência profissional e são recomendados para minhas alunas.
+      <section class="products-hero">
+        <div class="container">
+          <span class="products-badge">
+            <i class="fa-solid fa-award"></i>
+            Recomendação Profissional
+          </span>
+          <h1 class="products-page-title">Produtos Recomendados pela May</h1>
+          <p class="products-page-subtitle">
+            Encontre materiais cuidadosamente selecionados com base na minha
+            experiência profissional. São produtos indicados para iniciantes e
+            profissionais que buscam qualidade, praticidade e confiança.
           </p>
-          <span class="disclaimer-signature">May Souza</span>
+          <div class="products-scroll-indicator">
+            <span>Role para conhecer os produtos</span>
+            <i class="fa-solid fa-chevron-down hero-icon"></i>
+          </div>
         </div>
       </section>
+
+      <section
+        class="specialist-message container"
+        aria-labelledby="specialist-message-title"
+      >
+        <article class="specialist-card">
+          <div class="specialist-image">
+            <img
+              src="https://picsum.photos/seed/lash30/600/600"
+              alt="May Souza, Lash Designer e Educadora"
+            />
+          </div>
+
+          <div class="specialist-content">
+            <header class="specialist-header">
+              <span class="specialist-badge">
+                <i class="fa-solid fa-circle-check"></i>
+                Recomendação Profissional
+              </span>
+
+              <h2 id="specialist-message-title" class="specialist-title">
+                Produtos que utilizo e recomendo
+              </h2>
+            </header>
+
+            <p class="specialist-text">
+              Todos os produtos desta página foram cuidadosamente selecionados
+              com base na minha experiência profissional. São materiais que
+              utilizo ou recomendo para minhas alunas durante sua formação,
+              buscando sempre qualidade, praticidade e um excelente
+              custo-benefício.
+            </p>
+
+            <footer class="specialist-footer">
+              <span class="specialist-signature"> May Souza </span>
+
+              <span class="specialist-role"> Lash Designer • Educadora </span>
+            </footer>
+          </div>
+        </article>
+      </section>
+
       <section class="cards-grid">
         <template id="card-template">
-          <article class="card">
-            <img
-              class="product-card-image"
-              src="https://picsum.photos/seed/lash1/600/600"
-              alt="card template"
-            />
-            <h3 class="card-title">Pinça Precision Gold Pro</h3>
-            <p class="card-description">
-              Pinça de alta precisão para isolamento e aplicação de fios com
-              máximo controle.
-            </p>
-            <span class="card-tag">Recomendado pela May</span>
-            <a class="card-link" href="#" target="_blank">Comprar na Shopee</a>
+          <article class="product-card">
+            <div class="card-image-container">
+              <img
+                class="product-card-image"
+                src="https://picsum.photos/seed/lash1/600/600"
+                alt="Produto recomendado pela May"
+              />
+            </div>
+
+            <div class="card-content">
+              <h3 class="card-title">Pinça Precision Gold Pro</h3>
+
+              <p class="card-description">
+                Pinça de alta precisão para isolamento e aplicação de fios com
+                máximo controle e conforto durante o atendimento.
+              </p>
+
+              <span class="card-tag">
+                <i class="fa-solid fa-circle-check"></i>
+                Recomendado pela May
+              </span>
+
+              <a class="card-link" href="#" target="_blank">
+                <i class="fa-solid fa-cart-shopping card-icon"></i>
+                Comprar na Shopee
+              </a>
+            </div>
           </article>
         </template>
+      </section>
+
+      <section class="faq" id="faq">
+        <div class="container">
+          <header class="section-header">
+            <h2 class="section-title">Perguntas Frequentes</h2>
+            <p class="section-subtitle">
+              Tire as principais dúvidas sobre os produtos recomendados e os
+              cursos.
+            </p>
+          </header>
+          <div class="faq-list">
+            <article class="faq-item">
+              <button class="faq-question">
+                <span>Os produtos são vendidos pela May?</span>
+                <i class="fa-solid fa-plus faq-icon"></i>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Não. Todos os produtos desta página são vendidos por parceiros
+                  através da Shopee. A May apenas recomenda materiais que
+                  utiliza ou considera adequados para suas alunas.
+                </p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-question">
+                <span>Como posso tirar dúvidas sobre os produtos?</span>
+                <i class="fa-solid fa-plus faq-icon"></i>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Você pode entrar em contato diretamente com a May pelo
+                  WhatsApp ou Instagram. Ela terá prazer em orientar sobre os
+                  materiais mais indicados para cada etapa da sua formação.
+                </p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-question">
+                <span>Esses materiais são indicados para iniciantes?</span>
+                <i class="fa-solid fa-plus faq-icon"></i>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Sim. A seleção foi pensada principalmente para quem está
+                  começando na profissão, priorizando produtos de boa qualidade
+                  e excelente custo-benefício.
+                </p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-question">
+                <span>Como obter informações sobre o curso?</span>
+                <i class="fa-solid fa-plus faq-icon"></i>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Entre em contato pelos canais oficiais da May Souza Beauty
+                  para conhecer o conteúdo do curso, valores, próximas turmas e
+                  demais informações.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="course-cta">
+        <div class="container">
+          <article class="course-card">
+            <div class="course-image">
+              <img
+                src="https://picsum.photos/seed/lash30/600/600"
+                alt="May Souza - Lash Designer e Educadora"
+              />
+            </div>
+
+            <div class="course-content">
+              <span class="course-badge"> CURSO PROFISSIONAL </span>
+
+              <h2 class="course-title">
+                Quer aprender a trabalhar com extensão de cílios?
+              </h2>
+
+              <p class="course-description">
+                Aprenda desde os fundamentos até técnicas avançadas com
+                acompanhamento da May Souza. Desenvolva suas habilidades,
+                conheça os materiais corretos e dê os primeiros passos para
+                construir uma carreira como Lash Designer.
+              </p>
+
+              <a href="#" class="course-button">
+                Quero saber mais
+                <i class="fa-solid fa-arrow-right course-button-icon"></i>
+              </a>
+            </div>
+          </article>
+        </div>
       </section>
     </main>
 
@@ -175,5 +324,6 @@
     </footer>
     <script src="../js/menu.js"></script>
     <script src="../js/products_links.js"></script>
+    <script src="../js/accordions.js"></script>
   </body>
 </html>

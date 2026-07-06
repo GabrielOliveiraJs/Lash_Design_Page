@@ -1,0 +1,34 @@
+@media screen and (max-width: 1023px) {
+
+    .products-hero {
+        padding: var(--space-lg) var(--space-sm);
+    }
+
+    .products-page-subtitle {
+        max-width: 620px;
+    }
+
+    .specialist-card {
+        gap: 1.5rem;
+    }
+
+    .specialist-image img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .course-card {
+        gap: 2rem;
+        padding: 2.5rem;
+    }
+
+    .course-image img {
+        width: 180px;
+        height: 180px;
+    }
+
+}
