@@ -59,9 +59,93 @@
             margin-top: var(--space-sm);
         }
 
+        /* Hero */
+        .hero {
+            padding: var(--space-lg) 0;
+        }
+
+        .hero-container {
+            flex-direction: column-reverse;
+            text-align: center;
+            gap: 2rem;
+        }
+
+        .hero-content {
+            max-width: 100%;
+        }
+
+        .hero-buttons {
+            justify-content: center;
+        }
+
+        .btn {
+            width: 100%;
+        }
+
+        .hero-highlights {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hero-image {
+            margin-bottom: 1rem;
+        }
+
+        .hero-image::before {
+            width: 260px;
+            height: 260px;
+        }
+
+        .hero-image::after {
+            width: 180px;
+            height: 180px;
+            right: -10px;
+            bottom: -10px;
+        }
+
+        .hero-image img {
+            max-width: 260px;
+            border-width: 6px;
+        }
+
+        /* About */
+        .about {
+            padding: var(--space-lg) 0;
+        }
+
+        .about-stats {
+            grid-template-columns: 1fr;
+        }
+
+        .about-content {
+            flex-direction: column;
+            text-align: center;
+            gap: 2rem;
+        }
+
+        .about-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .about-image img {
+            max-width: 280px;
+        }
+
         /* Rodapé */
         .footer-logo {
             width: 4rem;
+        }
+
+        .copyright-container {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .footer-bottom-nav {
+            flex-wrap: wrap;
+            justify-content: center;
         }
     }
 

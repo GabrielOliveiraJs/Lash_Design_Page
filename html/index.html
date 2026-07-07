@@ -70,13 +70,140 @@
     </header>
 
     <main class="container">
+      <!-- HERO -->
       <section class="hero">
-        <h1>May Souza Beauty</h1>
-        <p>Especialista em extensão de cílios e formação profissional.</p>
+        <div class="container hero-container">
+          <div class="hero-content">
+            <span class="hero-badge">
+              <i class="fa-solid fa-award"></i>
+              Lash Designer • Educadora
+            </span>
+            <h1 class="hero-title">
+              Realce sua beleza com extensão de cílios feita por quem ama
+              transformar olhares.
+            </h1>
+            <p class="hero-description">
+              Atendimento personalizado, técnicas atualizadas e cursos
+              profissionais para quem deseja iniciar uma carreira na área da
+              beleza com segurança e confiança.
+            </p>
+
+            <nav class="hero-buttons">
+              <a href="#contato" class="btn btn-primary">
+                <i class="fa-regular fa-calendar-days"></i>
+                Agendar Atendimento
+              </a>
+              <a href="#curso" class="btn btn-outline">
+                <i class="fa-solid fa-graduation-cap"></i>
+                Conhecer o Curso
+              </a>
+            </nav>
+
+            <ul class="hero-highlights">
+              <li>
+                <i class="fa-solid fa-circle-check hero-icon-circle"></i>
+                Atendimento Personalizado
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check hero-icon-circle"></i>
+                Cursos Profissionais
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check hero-icon-circle"></i>
+                Produtos Recomendados
+              </li>
+            </ul>
+          </div>
+
+          <!-- Imagem -->
+          <div class="hero-image">
+            <picture>
+              <img
+                src="../images/pictures/imagem-atendendo.jpeg"
+                alt="May Souza realizando atendimento de extensão de cílios"
+              />
+            </picture>
+          </div>
+        </div>
       </section>
-      <section id="about">
-        <h2>Sobre</h2>
+
+      <!-- SOBRE -->
+      <section class="about section" id="sobre">
+        <div class="container">
+          <header class="section-header">
+            <span class="section-badge">
+              <i class="fa-solid fa-user"></i>
+              Sobre a Profissional
+            </span>
+            <h2 class="section-title">Conheça a May Souza</h2>
+            <p class="section-subtitle">
+              Especialista em extensão de cílios, apaixonada por realçar a
+              beleza feminina e formar novas profissionais para o mercado da
+              beleza.
+            </p>
+          </header>
+          <!-- Cards -->
+          <div class="about-stats">
+            <article class="stat-card">
+              <i class="fa-solid fa-eye stat-icon"></i>
+              <div class="stat-number-container">
+                <span class="stat-number"> +500 </span>
+              </div>
+              <span class="stat-title"> Clientes Atendidas </span>
+            </article>
+
+            <article class="stat-card">
+              <i class="fa-solid fa-user-graduate stat-icon"></i>
+              <div class="stat-number-container">
+                <span class="stat-number"> +80 </span>
+              </div>
+              <span class="stat-title"> Alunas Capacitadas </span>
+            </article>
+
+            <article class="stat-card">
+              <i class="fa-solid fa-award stat-icon"></i>
+              <div class="stat-number-container">
+                <span class="stat-number"> 100% </span>
+              </div>
+              <span class="stat-title"> Certificações Profissionais </span>
+            </article>
+
+            <article class="stat-card">
+              <i class="fa-solid fa-hand-holding-heart stat-icon"></i>
+              <div class="stat-number-container">
+                <span class="stat-number"> 100% </span>
+              </div>
+              <span class="stat-title"> Atendimento Personalizado </span>
+            </article>
+          </div>
+          <!-- Apresentação -->
+          <div class="about-content">
+            <div class="about-image">
+              <img
+                src="../images/pictures/imagem-perfil.jpeg"
+                alt="May Souza Lash Designer"
+              />
+            </div>
+            <div class="about-text">
+              <span class="about-small-title"> Muito prazer! </span>
+              <h3>Eu sou a May Souza</h3>
+              <p>
+                Sou Lash Designer especializada em extensão de cílios e
+                apaixonada por proporcionar autoestima, confiança e bem-estar
+                através do meu trabalho.
+              </p>
+              <p>
+                Além dos atendimentos, também dedico parte da minha carreira à
+                formação de novas Lash Designers, compartilhando conhecimento,
+                técnicas atualizadas e acompanhamento para que cada aluna inicie
+                sua trajetória profissional com segurança.
+              </p>
+              <a href="#curso" class="btn btn-primary"> Conhecer meu curso </a>
+            </div>
+          </div>
+        </div>
       </section>
+
       <section id="services">
         <h2>Serviços</h2>
       </section>
@@ -133,16 +260,20 @@
             <li class="footer-item">
               <a class="footer-links" href="#">E-mail</a>
             </li>
-            <li class="footer-item">Cidade (Presidente Prudente - SP)</li>
+            <li class="footer-item">Cidade: Presidente Prudente - SP</li>
           </ul>
         </section>
       </div>
       <div class="copyright-container">
-        <p class="copyright-text">
-          &copy; 2026 May Souza Beauty. Todos os direitos reservados.
-        </p>
+        <p class="copyright-text">&copy;</p>
+        <nav class="footer-bottom-nav">
+          <a href="#"> Política de Privacidade </a>
+          <span>•</span>
+          <a href="#"> Termos de Uso </a>
+        </nav>
       </div>
     </footer>
   </body>
   <script src="../js/menu.js"></script>
+  <script src="../js/footer.js"></script>
 </html>
