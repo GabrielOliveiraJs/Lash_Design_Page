@@ -64,6 +64,11 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    /* Contact */
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+    }
+
     /* Rodapé */
     .footer-logo {
         width: 5rem;
