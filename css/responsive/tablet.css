@@ -44,6 +44,26 @@
         max-width: 320px;
     }
 
+    /* Services */
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 280px 220px 220px;
+    }
+
+    .gallery-item-large {
+        grid-column: 1 / span 2;
+        grid-row: auto;
+    }
+
+    /* Testimonials */
+    .testimonials-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     /* Rodapé */
     .footer-logo {
         width: 5rem;

@@ -1,3 +1,99 @@
-/*
-.testimonial-card
-*/
+.testimonials {
+    padding: var(--space-xl) 0;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-md);
+    margin-top: var(--space-xl);
+}
+
+.testimonial-card {
+    background: var(--color-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--btn-rounded-borders-primary);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    box-shadow: var(--shadow-soft);
+    transition: var(--transition-default);
+}
+
+.testimonial-card:hover {
+    transform: translateY(-6px);
+    border-color: var(--color-primary);
+}
+
+.testimonial-stars {
+    display: flex;
+    gap: .35rem;
+    color: #D4A017;
+    font-size: .95rem;
+}
+
+.testimonial-text {
+    position: relative;
+    line-height: 1.9;
+    font-style: italic;
+    color: var(--color-text-light);
+    flex: 1;
+}
+
+.testimonial-text::before {
+    content: "“";
+    position: absolute;
+    top: -1.6rem;
+    left: -1.6rem;
+    font-size: 3rem;
+    font-family: "Playfair Display", serif;
+    color: var(--color-accent);
+    opacity: .45;
+}
+
+.testimonial-footer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.testimonial-avatar {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+    color: var(--color-white);
+    font-size: var(--font-size-md);
+    font-weight: 700;
+    letter-spacing: .05rem;
+    box-shadow: var(--shadow-soft);
+}
+
+.testimonial-author {
+    display: flex;
+    flex-direction: column;
+    gap: .35rem;
+}
+
+.testimonial-author strong {
+    color: var(--color-text);
+    font-size: var(--font-size-md);
+}
+
+.testimonial-tag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: .35rem .9rem;
+    border-radius: var(--border-pill);
+    background: var(--color-bg-surface);
+    color: var(--color-primary);
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+}

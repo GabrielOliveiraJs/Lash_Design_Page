@@ -133,6 +133,38 @@
             max-width: 280px;
         }
 
+        /* Services */
+        .services {
+            padding: var(--space-lg) 0;
+        }
+
+        .services-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .gallery-grid {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .gallery-item {
+            height: 250px;
+        }
+
+        .gallery-grid img {
+            height: 260px;
+        }
+
+        .service-card {
+            text-align: center;
+            align-items: center;
+        }
+
+        /* Testimonials */
+        .testimonials-grid {
+            grid-template-columns: 1fr;
+        }
+
         /* Rodapé */
         .footer-logo {
             width: 4rem;
