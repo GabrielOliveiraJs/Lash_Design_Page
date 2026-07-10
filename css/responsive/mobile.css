@@ -7,7 +7,7 @@
 
         .menu-toggle {
             display: block;
-            z-index: 1001;
+            z-index:2200;
         }
 
         .desktop-cta {
@@ -25,7 +25,7 @@
             padding: var(--space-md) 0;
             gap: var(--space-sm);
             box-shadow: var(--shadow-soft);
-            z-index: 1000;
+            z-index:2100;
             opacity: 0;
             visibility: hidden;
             transform: translateY(-20px);
