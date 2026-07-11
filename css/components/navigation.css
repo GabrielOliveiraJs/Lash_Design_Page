@@ -1,9 +1,10 @@
 .navigation-list {
     display: flex;
+    gap: var(--space-sm);
 }
 
 .navigation-item {
-    margin: 0 0.4rem;
+    margin: 0;
 }
 
 .navigation-link {
@@ -49,5 +50,9 @@
 }
 
 .mobile-navigation-cta {
+    display: none;
+}
+
+.cta-tablet {
     display: none;
 }

@@ -1,0 +1,7 @@
+    @media screen and (max-width: 767px) {
+        .desktop-text {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 400px) {}

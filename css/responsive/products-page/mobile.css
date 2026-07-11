@@ -1,5 +1,9 @@
 @media screen and (max-width: 767px) {
 
+    .desktop-text {
+        display: none;
+    }
+
     .products-hero {
         padding: var(--space-lg) var(--space-xs);
     }

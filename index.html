@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>May Souza Beauty - Início</title>
-    <link rel="icon" type="image/png" href="./images/logo.jpeg">
+    <link rel="icon" type="image/png" href="./images/logo.jpeg" />
     <script
       src="https://kit.fontawesome.com/0c2e64d2bb.js"
       crossorigin="anonymous"
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    <header class="site-header">  
+    <header class="site-header">
       <nav class="navbar" aria-label="Menu principal">
         <div class="logo-container">
           <a href="#">
@@ -40,14 +40,17 @@
             <a class="navigation-link" href="./products_links.html">Produtos</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#">Sobre o Curso</a>
+            <a class="navigation-link" href="./about-the-course.html"
+              >Sobre o Curso</a
+            >
           </li>
 
           <!-- CTA Mobile -->
           <li class="mobile-navigation-cta">
             <!--!TODO: Alterar o <button> para <a>-->
             <button class="cta-button">
-              Agendar Atendimento
+              <span class="desktop-text"> Agendar Atendimento </span>
+              <span class="tablet-text"> Agendar </span>
               <i class="fa-regular fa-calendar-days"></i>
             </button>
           </li>
@@ -56,7 +59,8 @@
         <!-- CTA Desktop -->
         <!--!TODO: Alterar o <button> para <a>-->
         <button class="cta-button desktop-cta">
-          Agendar Atendimento
+          <span class="cta-desktop"> Agendar Atendimento </span>
+          <span class="cta-tablet"> Agendar </span>
           <i class="fa-regular fa-calendar-days"></i>
         </button>
 
@@ -621,7 +625,9 @@
               <a class="footer-links" href="./products_links.html">Produtos</a>
             </li>
             <li class="footer-item">
-              <a class="footer-links" href="#">Sobre o Curso</a>
+              <a class="footer-links" href="./about-the-course.html"
+                >Sobre o Curso</a
+              >
             </li>
           </ul>
         </nav>

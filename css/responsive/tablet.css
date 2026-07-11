@@ -1,3 +1,35 @@
+@media screen and (max-width: 1099px) {
+
+    /* Navbar */
+    .navbar {
+        padding: var(--space-xs);
+        justify-content: space-between;
+        gap: var(--space-sm);
+    }
+
+    .navigation-list {
+        gap: var(--space-xs);
+    }
+
+    .navigation-link {
+        font-size: var(--font-size-md);
+        padding: .35rem .4rem;
+    }
+
+    .logo-container {
+        width: var(--space-lg);
+    }
+
+    .cta-desktop {
+        display: none;
+    }
+
+    .cta-tablet {
+        display: inline;
+    }
+
+}
+
 @media screen and (max-width: 1023px) {
 
     /* Hero */
