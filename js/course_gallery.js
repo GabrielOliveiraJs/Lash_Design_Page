@@ -1,4 +1,4 @@
-const galleryItems = document.querySelectorAll(".gallery-item");
+const galleryItems = document.querySelectorAll(".course-gallery-item");
 
 const galleryObserver = new IntersectionObserver(
   (entries) => {
