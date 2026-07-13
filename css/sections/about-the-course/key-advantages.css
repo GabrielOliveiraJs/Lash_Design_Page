@@ -1,0 +1,78 @@
+.course-differentials {
+    padding: var(--space-xl) 0;
+    background: var(--color-bg-surface);
+}
+
+.differentials-grid {
+    display: grid;
+    gap: var(--space-md);
+    margin-top: var(--space-lg);
+}
+
+.differential-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-md);
+}
+
+.differential-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.35rem 0.9rem;
+    background: rgba(107, 79, 59, 0.08);
+    color: var(--color-primary);
+    border: 1px solid rgba(107, 79, 59, 0.18);
+    border-radius: var(--border-pill);
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.differential-title {
+    margin-bottom: 0.8rem;
+}
+
+.differential-description {
+    line-height: 1.8;
+}
+
+.differential-card {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 24px;
+    background: white;
+    box-shadow: var(--shadow-soft);
+    border: 1px solid var(--color-border);
+    transition: var(--transition-default);
+}
+
+.differential-card:hover {
+    transform: translateY(-6px);
+}
+
+.differential-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    flex-shrink: 0;
+}
+
+.differential-content h3 {
+    margin-bottom: .8rem;
+}
+
+.differential-content p {
+    line-height: 1.8;
+}

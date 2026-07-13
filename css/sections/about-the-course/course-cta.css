@@ -1,0 +1,127 @@
+.course-cta {
+    padding: var(--space-xl) 0;
+}
+
+.course-cta-card {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    padding: 3rem;
+    border-radius: 32px;
+    background: linear-gradient(135deg,
+            var(--color-bg-secondary),
+            var(--color-primary));
+    color: white;
+    overflow: hidden;
+    box-shadow: var(--shadow-soft);
+}
+
+.course-cta-image {
+    flex: 0 0 320px;
+}
+
+.course-cta-image img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid rgba(255, 255, 255, .25);
+}
+
+.course-cta-content {
+    flex: 1;
+}
+
+.course-cta-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: .6rem;
+    padding: .5rem 1rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, .12);
+    margin-bottom: 1.5rem;
+    font-size: var(--font-size-sm);
+    color: var(--color-white);
+}
+
+.course-cta-title {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.course-cta-description {
+    color: rgba(255, 255, 255, .92);
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.course-cta-highlights {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.course-highlight {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    padding: .8rem 1rem;
+    background: rgba(255, 255, 255, .12);
+    border-radius: 999px;
+}
+
+.course-highlight span,
+.course-highlight .highlight-icon {
+    color: var(--color-accent);
+}
+
+.course-primary-button {
+    display: inline-flex;
+    align-items: center;
+    gap: .8rem;
+    padding: 1rem 2rem;
+    background: white;
+    color: var(--color-primary);
+    font-weight: 600;
+    border-radius: var(--btn-rounded-borders-primary);
+    transition: var(--transition-default);
+}
+
+.course-primary-button:hover {
+    transform: translateY(-4px);
+    background: var(--color-bg-surface);
+}
+
+.course-primary-button .course-primary-button-icon {
+    font-size: var(--font-size-lg);
+}
+
+.course-cta-small {
+    display: block;
+    margin-top: 1.5rem;
+    color: rgba(255, 255, 255, .8);
+}
+
+.course-cta-guarantees {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: var(--space-md);
+    padding-top: var(--space-md);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.course-guarantee-item {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    color: rgba(255, 255, 255, 0.92);
+    font-size: var(--font-size-sm);
+}
+
+.course-guarantee-item i {
+    color: #A7F3D0;
+    font-size: 1rem;
+    flex-shrink: 0;
+}

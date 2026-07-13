@@ -19,6 +19,13 @@
 @import url("./sections/services.css");
 @import url("./sections/testimonials.css");
 @import url("./sections/contact.css");
+@import url("./sections/about-the-course/hero.css");
+@import url("./sections/about-the-course/introduction.css");
+@import url("./sections/about-the-course/course-timeline.css");
+@import url("./sections/about-the-course/course-skills.css");
+@import url("./sections/about-the-course/key-advantages.css");
+@import url("./sections/about-the-course/gallery.css");
+@import url("./sections/about-the-course/course-cta.css");
 
 /* Products Page */
 @import url("./sections/products-page/products-list.css");
