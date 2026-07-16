@@ -167,12 +167,15 @@
 
 .cards-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 320px));
+    justify-content: center;
     gap: var(--space-md);
     margin: var(--space-xl) auto;
 }
 
 .product-card {
+    width: 100%;
+    max-width: 320px;
     display: flex;
     flex-direction: column;
     background: var(--color-card);
@@ -269,4 +272,17 @@
 
 .card-link:hover .card-icon {
     transform: translateX(3px);
+}
+
+.empty-products {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 5rem 1rem;
+}
+
+.empty-products.active {
+    display: flex;
 }

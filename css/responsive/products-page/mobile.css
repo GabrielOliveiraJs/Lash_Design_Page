@@ -74,4 +74,12 @@
         max-width: 100%;
     }
 
+    /*search bar*/
+    .products-search {
+        margin: var(--space-md) auto;
+    }
+
+    .search-box {
+        padding: .7rem 1rem;
+    }
 }

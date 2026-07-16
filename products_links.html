@@ -138,6 +138,42 @@
         </article>
       </section>
 
+      <section class="products-search" aria-labelledby="products-search-title">
+        <h2 id="products-search-title" class="products-search-title sr-only">
+          Pesquisar produtos
+        </h2>
+
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+
+          <input
+            type="search"
+            id="product-search"
+            class="search-input"
+            placeholder="Pesquisar produtos..."
+            autocomplete="off"
+          />
+
+          <button
+            type="button"
+            class="clear-search"
+            aria-label="Limpar pesquisa"
+          >
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+
+        <p class="search-info">
+          Encontre rapidamente um produto pelo nome ou descrição.
+        </p>
+
+        <p class="search-result">
+          Mostrando
+          <strong id="products-count">0</strong>
+          produtos
+        </p>
+      </section>
+
       <section class="cards-grid">
         <template id="card-template">
           <article class="product-card">
@@ -170,6 +206,12 @@
           </article>
         </template>
       </section>
+
+      <div class="empty-products" id="empty-products">
+        <i class="fa-solid fa-box-open empty-products-icon"></i>
+        <h2>Nenhum produto encontrado</h2>
+        <p>Tente pesquisar utilizando outro termo.</p>
+      </div>
 
       <section class="faq" id="faq">
         <div class="container">
