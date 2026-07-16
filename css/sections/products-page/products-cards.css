@@ -1,0 +1,121 @@
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 320px));
+    justify-content: center;
+    gap: var(--space-md);
+    margin: var(--space-xl) auto;
+}
+
+.product-card {
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--btn-rounded-borders-primary);
+    overflow: hidden;
+    box-shadow: var(--shadow-soft);
+    transition: var(--transition-default);
+}
+
+.product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .12);
+}
+
+.card-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-bg-surface);
+    height: 250px;
+    padding: var(--space-sm);
+    overflow: hidden;
+}
+
+.product-card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform .35s ease;
+}
+
+.product-card:hover .product-card-image {
+    transform: scale(1.06);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-sm);
+    padding: var(--space-md);
+    flex: 1;
+}
+
+.card-title {
+    font-size: var(--font-size-lg);
+    line-height: 1.3;
+}
+
+.card-description {
+    color: var(--color-text-light);
+    line-height: 1.7;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: .45rem;
+    padding: .35rem .85rem;
+    background: var(--color-bg-surface);
+    color: var(--color-primary);
+    border-radius: var(--border-pill);
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+}
+
+.card-link {
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .6rem;
+    padding: .9rem;
+    background: var(--color-bg-secondary);
+    color: var(--color-white);
+    border-radius: var(--btn-rounded-borders-primary);
+    font-weight: 600;
+    transition: var(--transition-default);
+}
+
+.card-link:hover {
+    background: var(--color-primary-hover);
+}
+
+.card-link .card-icon {
+    transition: transform .25s ease;
+}
+
+.card-link:hover .card-icon {
+    transform: translateX(3px);
+}
+
+.empty-products {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 5rem 1rem;
+}
+
+.empty-products.active {
+    display: flex;
+}

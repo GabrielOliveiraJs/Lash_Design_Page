@@ -1,0 +1,72 @@
+.products-hero {
+    background: var(--color-bg-surface);
+    padding: var(--space-xl) var(--space-sm);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.products-hero .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.products-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    margin-bottom: var(--space-sm);
+    padding: .45rem 1rem;
+    background: var(--color-card);
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    color: var(--color-primary);
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+}
+
+.products-page-title {
+    margin-bottom: var(--space-sm);
+    font-size: clamp(2.2rem, 4vw, 3.5rem);
+    line-height: 1.2;
+    max-width: 900px;
+}
+
+.products-page-subtitle {
+    max-width: 720px;
+    font-size: var(--font-size-lg);
+    line-height: 1.8;
+    color: var(--color-text-light);
+}
+
+.products-scroll-indicator {
+    margin-top: var(--space-lg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .4rem;
+    color: var(--color-primary);
+    font-size: var(--font-size-sm);
+    opacity: .75;
+}
+
+.products-scroll-indicator .hero-icon {
+    animation: scrollIndicator 1.8s ease-in-out infinite;
+}
+
+@keyframes scrollIndicator {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(8px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
