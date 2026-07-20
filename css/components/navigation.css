@@ -1,10 +1,13 @@
 .navigation-list {
     display: flex;
+    flex: 0 1 auto;
     gap: var(--space-sm);
 }
 
 .navigation-item {
-    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
 }
 
 .navigation-link {
@@ -13,14 +16,19 @@
     font-size: var(--font-size-lg);
     transition: var(--transition-default);
     position: relative;
+    white-space: nowrap;
 }
 
 .navigation-link:hover {
     color: var(--color-text-light);
 }
 
-.navigation-link.is-active {
-    border-bottom: 2px solid var(--color-text-light);
+.navigation-link.active {
+    color: var(--color-primary);
+}
+
+.navigation-link.active::after {
+    width: 100%;
 }
 
 .navigation-link::after {

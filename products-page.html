@@ -14,62 +14,56 @@
   <body>
     <header class="site-header">
       <nav class="navbar" aria-label="Menu principal">
-        <div class="logo">
-          <a href="./index.html">
-            <img
-              class="logo"
-              src="/images/logo.jpeg"
-              alt="Logo de May Souza Beauty"
-            />
-          </a>
-        </div>
+        <a href="./index.html" class="logo-container">
+          <img
+            class="logo"
+            src="/images/logo.jpeg"
+            alt="Logo May Souza Beauty"
+          />
+        </a>
+
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link" href="./index.html">Início</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="./index.html#about">Sobre</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="./index.html#services">Serviços</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="./index.html#contact">Contato</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">Produtos</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="./about-the-course.html"
-              >Sobre o Curso</a
-            >
+            <a class="navigation-link" href="./index.html"> Início </a>
           </li>
 
-          <!-- CTA Mobile -->
+          <li class="navigation-item">
+            <a class="navigation-link" href="./about-the-course.html">
+              Curso
+            </a>
+          </li>
+
+          <li class="navigation-item">
+            <a class="navigation-link" href="./lash-styles.html">
+              Tipos de Cílios
+            </a>
+          </li>
+
+          <li class="navigation-item">
+            <a class="navigation-link" href="./products-page.html">
+              Materiais
+            </a>
+          </li>
+
+          <li class="navigation-item">
+            <a class="navigation-link" href="./index.html#contact"> Contato </a>
+          </li>
+
           <li class="mobile-navigation-cta">
-            <!--!TODO: Alterar o <button> para <a>-->
-            <button class="cta-button">
-              <span class="desktop-text"> Agendar Atendimento </span>
-              <span class="tablet-text"> Agendar </span>
-              <i class="fa-regular fa-calendar-days"></i>
-            </button>
+            <a href="#" class="cta-button"> Agendar Atendimento </a>
           </li>
         </ul>
 
-        <!-- CTA Desktop -->
-        <!--!TODO: Alterar o <button> para <a>-->
-        <button class="cta-button desktop-cta">
-          <span class="cta-desktop"> Agendar Atendimento </span>
-          <span class="cta-tablet"> Agendar </span>
-          <i class="fa-regular fa-calendar-days"></i>
-        </button>
+        <a href="#" class="cta-button desktop-cta">
+          Agendar Atendimento
 
-        <!-- Botão Toggle Navbar -->
+          <i class="fa-regular fa-calendar-days"></i>
+        </a>
+
         <button
           class="menu-toggle"
           aria-label="Abrir menu"
           aria-expanded="false"
-          aria-controls="navigation"
         >
           <i class="fa-solid fa-bars"></i>
         </button>
