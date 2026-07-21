@@ -25,6 +25,7 @@
 
 .navigation-link.active {
     color: var(--color-primary);
+    font-weight: 600;
 }
 
 .navigation-link.active::after {

@@ -21,13 +21,6 @@
 @import url("./sections/index/testimonials.css");
 @import url("./sections/index/contact.css");
 
-/* Products Page */
-@import url("./sections/products-page/products-hero.css");
-@import url("./sections/products-page/specialist-message.css");
-@import url("./sections/products-page/search-bar.css");
-@import url("./sections/products-page/products-cards.css");
-@import url("./sections/products-page/course-cta.css");
-
 /* About The Course */
 @import url("./sections/about-the-course/hero.css");
 @import url("./sections/about-the-course/introduction.css");
@@ -37,15 +30,31 @@
 @import url("./sections/about-the-course/gallery.css");
 @import url("./sections/about-the-course/course-cta.css");
 
+/* Lash Service */
+
+
+/* Products Page */
+@import url("./sections/products-page/products-hero.css");
+@import url("./sections/products-page/specialist-message.css");
+@import url("./sections/products-page/search-bar.css");
+@import url("./sections/products-page/products-cards.css");
+@import url("./sections/products-page/course-cta.css");
+
+
 /* === RESPONSIVE === */
 /* Index */
 @import url("./responsive/index/tablet.css");
 @import url("./responsive/index/mobile.css");
 
+/* About The Course */
+@import url("./responsive/about-the-course/tablet.css");
+@import url("./responsive/about-the-course/mobile.css");
+
+/* Lash Service */
+@import url("./responsive/lash-service/tablet.css");
+@import url("./responsive/lash-service/mobile.css");
+
 /* Products Page */
 @import url("./responsive/products-page/tablet.css");
 @import url("./responsive/products-page/mobile.css");
 
-/* About The Course */
-@import url("./responsive/about-the-course/tablet.css");
-@import url("./responsive/about-the-course/mobile.css");

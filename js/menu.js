@@ -4,23 +4,41 @@ const menuIcon = document.querySelector(".menu-icon");
 const navList = document.querySelector(".navigation-list");
 const navLinks = document.querySelectorAll(".navigation-link");
 const currentPage = window.location.pathname.split("/").pop() || "index.html";
-const currentHash = window.location.hash;
 const header = document.querySelector("header");
 
 // Alternar o underline do link clicado na navbar
-navLinks.forEach((link) => {
-  const href = link.getAttribute("href");
-  if (href.includes("#")) {
-    if (href.endsWith(currentHash) && currentHash !== "") {
+const removeActiveLinks = () => {
+  navLinks.forEach((link) => {
+    link.classList.remove("active");
+  });
+};
+
+const activateLink = (page) => {
+  removeActiveLinks();
+
+  navLinks.forEach((link) => {
+    if (link.dataset.page === page) {
       link.classList.add("active");
     }
-    return;
+  });
+};
+
+const getCurrentPage = () => {
+  switch (currentPage) {
+    case "index.html":
+      return "home";
+    case "about-the-course.html":
+      return "course";
+    case "lash-service.html":
+      return "styles";
+    case "products-page.html":
+      return "products";
+    default:
+      return "home";
   }
-  const pageName = href.split("/").pop();
-  if (pageName === currentPage && currentHash === "") {
-    link.classList.add("active");
-  }
-});
+};
+
+activateLink(getCurrentPage());
 
 // Menu de hambúrguer para dispositivos móveis
 function openMenu() {
@@ -46,7 +64,10 @@ menuToggle.addEventListener("click", () => {
 });
 
 navLinks.forEach((link) => {
-  link.addEventListener("click", closeMenu);
+  link.addEventListener("click", () => {
+    activateLink(link.dataset.page);
+    closeMenu();
+  });
 });
 
 // Efeito Sticky
