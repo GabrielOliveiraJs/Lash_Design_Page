@@ -1,3 +1,19 @@
- @media screen and (max-width: 767px) {}
+ @media screen and (max-width: 767px) {
+     .lash-hero-buttons {
+         flex-direction: column;
+         width: 100%;
+     }
+
+     .lash-hero-buttons .cta-button,
+     .lash-hero-buttons .secondary-button {
+         width: 100%;
+         justify-content: center;
+     }
+
+     .lash-hero-subtitle {
+         font-size: var(--font-size-md);
+         line-height: 1.8;
+     }
+ }
 
  @media screen and (max-width: 400px) {}

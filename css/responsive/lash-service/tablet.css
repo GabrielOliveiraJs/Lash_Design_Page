@@ -1,1 +1,11 @@
 @media screen and (max-width: 1099px) {}
+
+@media (max-width: 992px) {
+    .lash-hero {
+        padding: var(--space-xl) var(--space-sm);
+    }
+
+    .lash-hero-title {
+        font-size: clamp(2.2rem, 6vw, 3.2rem);
+    }
+}
