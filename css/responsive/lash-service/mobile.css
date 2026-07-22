@@ -61,6 +61,20 @@
      .choose-icon {
          margin-bottom: .5rem;
      }
+
+     /* FAQ */
+     .faq-question {
+         padding: 1.2rem;
+         font-size: 1rem;
+     }
+
+     .faq-answer p {
+         padding: 0 1.2rem;
+     }
+
+     .faq-item.active .faq-answer p {
+         padding: 0 1.2rem 1.3rem;
+     }
  }
 
  @media screen and (max-width: 400px) {}
