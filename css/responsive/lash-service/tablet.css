@@ -22,4 +22,15 @@
             repeat(auto-fit, minmax(300px, 340px));
         gap: 2rem;
     }
+
+    /* Choose Style */
+    .choose-style-content {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .choose-style-image {
+        max-width: 600px;
+        margin: 0 auto;
+    }
 }

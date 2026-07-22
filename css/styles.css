@@ -34,6 +34,7 @@
 @import url("./sections/lash-service/lash-hero.css");
 @import url("./sections/lash-service/introduction.css");
 @import url("./sections/lash-service/services-cards.css");
+@import url("./sections/lash-service/choose-style.css");
 
 /* Products Page */
 @import url("./sections/products-page/products-hero.css");

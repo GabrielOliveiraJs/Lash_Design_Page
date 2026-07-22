@@ -1,3 +1,7 @@
+.lash-services {
+    margin-top: var(--space-lg);
+}
+
 .services-grid {
     display: grid;
     grid-template-columns:
