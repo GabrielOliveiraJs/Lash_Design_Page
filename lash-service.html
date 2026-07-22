@@ -91,6 +91,7 @@
     </header>
 
     <main class="container">
+      <!-- Hero -->
       <section class="lash-hero">
         <div class="container">
           <span class="lash-hero-badge">
@@ -125,6 +126,145 @@
             <span>Descubra qual técnica combina com você</span>
 
             <i class="fa-solid fa-chevron-down hero-icon"></i>
+          </div>
+        </div>
+      </section>
+
+      <!-- Introdução -->
+      <section class="lash-introduction">
+        <div class="container">
+          <header class="section-header">
+            <span class="section-tag"> Atendimento Personalizado </span>
+            <h2 class="section-title">
+              Cada olhar possui características únicas e merece uma técnica
+              escolhida especialmente para ele.
+            </h2>
+            <p class="section-subtitle">
+              A extensão de cílios vai muito além da estética. O formato dos
+              olhos, o comprimento dos fios naturais, a curvatura e o resultado
+              desejado influenciam diretamente na escolha da técnica ideal.
+            </p>
+          </header>
+
+          <div class="introduction-content">
+            <p>
+              Durante o atendimento, cada detalhe é cuidadosamente analisado
+              para proporcionar um resultado elegante, confortável e harmonioso,
+              valorizando sua beleza natural sem comprometer a saúde dos fios.
+            </p>
+            <p>
+              Conheça abaixo algumas das técnicas disponíveis e descubra qual
+              delas combina melhor com o seu estilo e sua personalidade.
+            </p>
+          </div>
+
+          <div class="intro-highlights">
+            <article class="intro-card">
+              <div class="intro-icon">
+                <i class="fa-solid fa-eye"></i>
+              </div>
+              <h3>Análise Personalizada</h3>
+              <p>
+                Cada atendimento começa com uma avaliação para identificar a
+                técnica mais adequada ao seu olhar.
+              </p>
+            </article>
+
+            <article class="intro-card">
+              <div class="intro-icon">
+                <i class="fa-solid fa-shield-heart"></i>
+              </div>
+              <h3>Segurança dos Fios</h3>
+              <p>
+                Os procedimentos respeitam a estrutura dos cílios naturais,
+                priorizando conforto e durabilidade.
+              </p>
+            </article>
+
+            <article class="intro-card">
+              <div class="intro-icon">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3>Resultado Exclusivo</h3>
+              <p>
+                O objetivo é realçar sua beleza de forma natural ou marcante,
+                sempre respeitando seu estilo.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cards de estilos de cílios -->
+      <section class="lash-services" id="lash-services">
+        <div class="container">
+          <header class="section-header">
+            <span class="section-tag"> Técnicas Disponíveis </span>
+
+            <h2 class="section-title">
+              Escolha o estilo que mais combina com você
+            </h2>
+
+            <p class="section-subtitle">
+              Todas as técnicas são realizadas de forma personalizada para
+              valorizar seu olhar e respeitar a saúde dos seus fios naturais.
+            </p>
+          </header>
+
+          <div class="services-grid"></div>
+
+          <template id="service-template">
+            <article class="service-card">
+              <div class="service-image">
+                <img class="service-card-image" src="" alt="" />
+
+                <span class="service-price"></span>
+
+                <span class="service-category"></span>
+              </div>
+
+              <div class="service-content">
+                <header class="service-header">
+                  <h3 class="service-title"></h3>
+
+                  <p class="service-description"></p>
+                </header>
+
+                <div class="service-details">
+                  <div class="detail-item">
+                    <i class="fa-regular fa-clock detail-icon"></i>
+                    <span class="service-duration"></span>
+                  </div>
+
+                  <div class="detail-item">
+                    <i class="fa-solid fa-arrow-rotate-right detail-icon"></i>
+                    <span class="service-maintenance"></span>
+                  </div>
+
+                  <div class="detail-item">
+                    <i class="fa-solid fa-star detail-icon"></i>
+                    <span class="service-effect"></span>
+                  </div>
+                </div>
+
+                <a class="service-button" href="#">
+                  Agendar Atendimento
+                  <i class="fa-solid fa-arrow-right service-button-icon"></i>
+                </a>
+              </div>
+            </article>
+          </template>
+
+          <div class="service-note">
+            <i class="fa-solid fa-circle-info .service-note-icon"></i>
+
+            <p>
+              Não sabe qual técnica escolher?
+              <strong>
+                Durante a avaliação analiso seu olhar e indico a técnica mais
+                adequada para você.
+              </strong>
+            </p>
           </div>
         </div>
       </section>
@@ -191,4 +331,5 @@
   </body>
   <script src="/js/menu.js"></script>
   <script src="/js/footer.js"></script>
+  <script src="js/services_cards.js"></script>
 </html>

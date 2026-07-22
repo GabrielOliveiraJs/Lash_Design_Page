@@ -1,4 +1,6 @@
  @media screen and (max-width: 767px) {
+
+     /* Hero */
      .lash-hero-buttons {
          flex-direction: column;
          width: 100%;
@@ -13,6 +15,40 @@
      .lash-hero-subtitle {
          font-size: var(--font-size-md);
          line-height: 1.8;
+     }
+
+     /* Introdução */
+     .lash-introduction {
+         padding: var(--space-xl) 0;
+     }
+
+     .introduction-content {
+         margin: var(--space-md) auto;
+     }
+
+     .introduction-content p {
+         font-size: var(--font-size-md);
+     }
+
+     .intro-highlights {
+         grid-template-columns: 1fr;
+     }
+
+     /* Services Cards */
+     .services-grid {
+         grid-template-columns: 1fr;
+         max-width: 420px;
+         margin-inline: auto;
+     }
+
+     .service-content {
+         padding: 1.5rem;
+     }
+
+     .service-note {
+         flex-direction: column;
+         text-align: center;
+         align-items: center;
      }
  }
 

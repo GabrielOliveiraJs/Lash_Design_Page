@@ -1,0 +1,64 @@
+.lash-introduction {
+    padding: var(--space-xxl) 0;
+    background: var(--color-white);
+}
+
+.introduction-content {
+    max-width: 850px;
+    margin: var(--space-lg) auto;
+    text-align: center;
+}
+
+.introduction-content p {
+    color: var(--color-text-light);
+    line-height: 1.9;
+    font-size: var(--font-size-lg);
+}
+
+.introduction-content p+p {
+    margin-top: var(--space-md);
+}
+
+.intro-highlights {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-md);
+    margin-top: var(--space-xl);
+}
+
+.intro-card {
+    background: var(--color-card);
+    padding: 2rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--btn-rounded-borders-primary);
+    text-align: center;
+    transition: var(--transition-default);
+    box-shadow: var(--shadow-soft);
+}
+
+.intro-card:hover {
+    transform: translateY(-8px);
+}
+
+.intro-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: var(--color-bg-surface);
+    color: var(--color-primary);
+    font-size: 1.7rem;
+}
+
+.intro-card h3 {
+    margin-bottom: 1rem;
+    color: var(--color-text);
+}
+
+.intro-card p {
+    color: var(--color-text-light);
+    line-height: 1.8;
+}
