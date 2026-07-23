@@ -20,7 +20,7 @@
     gap: 1rem;
     align-items: flex-start;
     background: var(--color-card);
-    border: 1px solid var(--color-border);
+    border: var(--border-primary);
     border-radius: var(--btn-rounded-borders-primary);
     padding: 1.5rem;
     box-shadow: var(--shadow-soft);
@@ -76,7 +76,7 @@
     padding: .45rem .9rem;
     width: fit-content;
     background: var(--color-bg-surface);
-    border: 1px solid var(--color-border);
+    border: var(--border-primary);
     border-radius: var(--border-pill);
     color: var(--color-primary);
     font-size: var(--font-size-sm);
@@ -90,7 +90,7 @@
 .location-card {
     background: var(--color-card);
     border-radius: var(--btn-rounded-borders-primary);
-    border: 1px solid var(--color-border);
+    border: var(--border-primary);
     padding: 2rem;
     box-shadow: var(--shadow-soft);
 }
@@ -126,7 +126,7 @@
     padding: .85rem 1.2rem;
     border-radius: var(--btn-rounded-borders-primary);
     background: var(--color-bg-surface);
-    border: 1px solid var(--color-border);
+    border: var(--border-primary);
     color: var(--color-primary);
     font-weight: 600;
     transition: var(--transition-default);

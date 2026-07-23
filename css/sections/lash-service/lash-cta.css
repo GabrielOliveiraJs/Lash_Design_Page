@@ -86,7 +86,7 @@
     margin: var(--space-sm) 0;
     font-size: clamp(2.4rem, 4vw, 3.6rem);
     line-height: 1.15;
-    color: white;
+    color: var(--color-white);
 }
 
 .lash-cta-description {

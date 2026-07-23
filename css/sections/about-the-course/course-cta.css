@@ -11,7 +11,7 @@
     background: linear-gradient(135deg,
             var(--color-bg-secondary),
             var(--color-primary));
-    color: white;
+    color: var(--color-white);
     overflow: hidden;
     box-shadow: var(--shadow-soft);
 }
@@ -45,7 +45,7 @@
 }
 
 .course-cta-title {
-    color: white;
+    color: var(--color-white);
     margin-bottom: 1rem;
 }
 
@@ -81,7 +81,7 @@
     align-items: center;
     gap: .8rem;
     padding: 1rem 2rem;
-    background: white;
+    background: var(--color-white);
     color: var(--color-primary);
     font-weight: 600;
     border-radius: var(--btn-rounded-borders-primary);

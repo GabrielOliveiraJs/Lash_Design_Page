@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     background: var(--color-card);
-    border: 1px solid var(--color-border);
+    border: var(--border-primary);
     border-radius: var(--btn-rounded-borders-primary);
     overflow: hidden;
     box-shadow: var(--shadow-soft);

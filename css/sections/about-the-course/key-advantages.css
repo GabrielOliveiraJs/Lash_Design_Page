@@ -46,9 +46,9 @@
     align-items: center;
     padding: 2rem;
     border-radius: 24px;
-    background: white;
+    background: var(--color-white);
     box-shadow: var(--shadow-soft);
-    border: 1px solid var(--color-border);
+    border: var(--border-primary);
     transition: var(--transition-default);
 }
 
@@ -61,7 +61,7 @@
     height: 80px;
     border-radius: 50%;
     background: var(--color-primary);
-    color: white;
+    color: var(--color-white);
     display: flex;
     justify-content: center;
     align-items: center;

@@ -37,7 +37,7 @@
     height: 80px;
     border-radius: 50%;
     background: var(--color-primary);
-    color: white;
+    color: var(--color-white);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,7 +83,7 @@
     height: 65px;
     border-radius: 50%;
     background: var(--color-primary);
-    color: white;
+    color: var(--color-white);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,7 +110,7 @@
     display: flex;
     align-items: flex-start;
     gap: .8rem;
-    background: white;
+    background: var(--color-white);
     padding: 1rem;
     border-radius: 16px;
     box-shadow: var(--shadow-soft);

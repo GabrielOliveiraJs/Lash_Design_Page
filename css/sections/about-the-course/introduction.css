@@ -48,7 +48,7 @@
     padding: var(--space-sm);
     border-radius: var(--btn-rounded-borders-primary);
     background: var(--color-card);
-    border: 1px solid var(--color-border);
+    border: var(--border-primary);
     box-shadow: var(--shadow-soft);
     transition: var(--transition-default);
 }

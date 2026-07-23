@@ -46,6 +46,7 @@
     --transition-default: 0.3s ease all;
 
     /* Bordas */
+    --border-primary: 1px solid var(--color-border);
     --btn-rounded-borders-primary: 5px;
     --btn-border-primary: 2px solid var(--color-border);
     --tags-border: 1px solid var(--color-primary);

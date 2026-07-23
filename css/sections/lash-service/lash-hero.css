@@ -3,7 +3,7 @@
     background: linear-gradient(180deg,
             var(--color-bg-primary) 0%,
             var(--color-bg-surface) 100%);
-    border-bottom: 1px solid var(--color-border);
+    border-bottom: var(--border-primary);
 }
 
 .lash-hero .container {

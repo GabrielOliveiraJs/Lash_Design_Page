@@ -24,7 +24,7 @@
 
 .faq-item {
     background: var(--color-card);
-    border: 1px solid var(--color-border);
+    border: var(--border-primary);
     border-radius: .75rem;
     overflow: hidden;
     box-shadow: var(--shadow-soft);
