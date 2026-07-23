@@ -47,11 +47,11 @@
 
 .service-price {
     position: absolute;
-    right: 1rem;
-    bottom: 1rem;
+    right: var(--space-sm);
+    bottom: var(--space-sm);
     background: var(--color-primary);
     color: white;
-    padding: .6rem 1rem;
+    padding: .6rem var(--space-sm);
     border-radius: 999px;
     font-weight: 700;
     box-shadow: 0 8px 20px rgba(0, 0, 0, .2);
@@ -59,11 +59,11 @@
 
 .service-category {
     position: absolute;
-    top: 1rem;
-    left: 1rem;
+    top: var(--space-sm);
+    left: var(--space-sm);
     background: white;
     color: var(--color-primary);
-    padding: .45rem 1rem;
+    padding: .45rem var(--space-sm);
     border-radius: 999px;
     font-size: .8rem;
     font-weight: 600;
@@ -95,8 +95,8 @@
 .service-details {
     display: grid;
     gap: .9rem;
-    margin-bottom: 2rem;
-    padding: 1rem;
+    margin-bottom: var(--space-md);
+    padding: var(--space-sm);
     border-radius: 10px;
     background: var(--color-bg-surface);
 }
@@ -119,7 +119,7 @@
     align-items: center;
     gap: .7rem;
     margin-top: auto;
-    padding: 1rem;
+    padding: var(--space-sm);
     background: var(--color-primary);
     color: white;
     font-weight: 600;
@@ -142,10 +142,10 @@
 .service-note {
     display: flex;
     align-items: flex-start;
-    gap: 1rem;
+    gap: var(--space-sm);
     margin: 5rem auto 0;
     max-width: 850px;
-    padding: 1.5rem 2rem;
+    padding: 1.5rem var(--space-md);
     background: var(--color-bg-surface);
     border-left: 5px solid var(--color-primary);
     border-radius: 12px;

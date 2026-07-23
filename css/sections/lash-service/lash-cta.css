@@ -8,12 +8,12 @@
 .lash-cta-card {
     display: grid;
     grid-template-columns: 1.35fr .9fr;
-    gap: 4rem;
+    gap: var(--space-lg);
     align-items: center;
     background: rgba(255, 255, 255, .05);
     border: 1px solid rgba(255, 255, 255, .08);
     border-radius: 24px;
-    padding: 4rem;
+    padding: var(--space-lg);
     backdrop-filter: blur(8px);
     overflow: hidden;
     position: relative;
@@ -45,7 +45,7 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: .5rem;
+    gap: var(--space-xs);
     align-self: flex-start;
     padding: .55rem 1.1rem;
     background: rgba(255, 255, 255, .08);
@@ -83,7 +83,7 @@
 
 .lash-cta-title {
     max-width: 650px;
-    margin: 1rem 0;
+    margin: var(--space-sm) 0;
     font-size: clamp(2.4rem, 4vw, 3.6rem);
     line-height: 1.15;
     color: white;
@@ -93,14 +93,14 @@
     max-width: 650px;
     color: rgba(255, 255, 255, .88);
     line-height: 1.9;
-    margin-bottom: 2rem;
+    margin-bottom: var(--space-md);
 }
 
 .lash-cta-benefits {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem 2rem;
-    margin: 2rem 0 2.8rem;
+    gap: var(--space-sm) var(--space-md);
+    margin: var(--space-md) 0 2.8rem;
 }
 
 .lash-cta-benefits li {
@@ -113,13 +113,13 @@
 
 .lash-cta-benefits .lash-cta-benefits-icon {
     color: #8BE28B;
-    font-size: 1rem;
+    font-size: var(--font-size-md);
 }
 
 .lash-cta-buttons {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: var(--space-sm);
 }
 
 .lash-cta .cta-button {
@@ -128,7 +128,7 @@
     justify-content: center;
     gap: .75rem;
     min-height: 56px;
-    padding: 0 2rem;
+    padding: 0 var(--space-md);
     background: var(--color-white);
     color: var(--color-primary);
     border: 2px solid transparent;
