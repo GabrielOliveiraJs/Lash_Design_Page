@@ -75,6 +75,28 @@
      .faq-item.active .faq-answer p {
          padding: 0 1.2rem 1.3rem;
      }
+
+     /* Lash CTA */
+     .lash-cta {
+         padding: var(--space-xl) 0;
+     }
+
+     .lash-cta-title {
+         font-size: 2rem;
+     }
+
+     .lash-cta-buttons {
+         flex-direction: column;
+     }
+
+     .lash-cta-buttons a {
+         justify-content: center;
+         width: 100%;
+     }
+
+     .lash-cta .cta-button {
+         width: 100%;
+     }
  }
 
  @media screen and (max-width: 400px) {}

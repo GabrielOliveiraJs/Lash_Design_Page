@@ -1,0 +1,206 @@
+.lash-cta {
+    padding: var(--space-xxl) 0;
+    background: linear-gradient(135deg,
+            var(--color-bg-secondary),
+            var(--color-primary));
+}
+
+.lash-cta-card {
+    display: grid;
+    grid-template-columns: 1.35fr .9fr;
+    gap: 4rem;
+    align-items: center;
+    background: rgba(255, 255, 255, .05);
+    border: 1px solid rgba(255, 255, 255, .08);
+    border-radius: 24px;
+    padding: 4rem;
+    backdrop-filter: blur(8px);
+    overflow: hidden;
+    position: relative;
+}
+
+.lash-cta-card::before {
+    content: "";
+    position: absolute;
+    top: -120px;
+    right: -120px;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .05);
+}
+
+.lash-cta-card::after {
+    content: "";
+    position: absolute;
+    left: -80px;
+    bottom: -80px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .04);
+}
+
+.section-tag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    align-self: flex-start;
+    padding: .55rem 1.1rem;
+    background: rgba(255, 255, 255, .08);
+    border: 1px solid rgba(255, 255, 255, .15);
+    border-radius: var(--border-pill);
+    color: var(--color-accent);
+    font-size: .85rem;
+    font-weight: 700;
+    letter-spacing: .08rem;
+    text-transform: uppercase;
+    backdrop-filter: blur(8px);
+    transition: var(--transition-default);
+    animation: fadeTag .6s ease;
+}
+
+@keyframes fadeTag {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.section-tag:hover {
+    background: rgba(255, 255, 255, .12);
+    border-color: rgba(255, 255, 255, .25);
+}
+
+.section-tag .section-tag-icon {
+    font-size: .9rem;
+}
+
+.lash-cta-title {
+    max-width: 650px;
+    margin: 1rem 0;
+    font-size: clamp(2.4rem, 4vw, 3.6rem);
+    line-height: 1.15;
+    color: white;
+}
+
+.lash-cta-description {
+    max-width: 650px;
+    color: rgba(255, 255, 255, .88);
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+
+.lash-cta-benefits {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem 2rem;
+    margin: 2rem 0 2.8rem;
+}
+
+.lash-cta-benefits li {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, .95);
+}
+
+.lash-cta-benefits .lash-cta-benefits-icon {
+    color: #8BE28B;
+    font-size: 1rem;
+}
+
+.lash-cta-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.lash-cta .cta-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .75rem;
+    min-height: 56px;
+    padding: 0 2rem;
+    background: var(--color-white);
+    color: var(--color-primary);
+    border: 2px solid transparent;
+    border-radius: 999px;
+    font-size: var(--font-size-md);
+    font-weight: 600;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .15);
+    transition: all .35s ease;
+}
+
+.lash-cta .cta-button:hover {
+    background: var(--color-bg-surface);
+    transform: translateY(-3px);
+    box-shadow: 0 18px 35px rgba(0, 0, 0, .22);
+}
+
+.lash-cta .cta-button .cta-button-icon {
+    font-size: 1.2rem;
+    transition: transform .3s ease;
+}
+
+.lash-cta .cta-button:hover .cta-button-icon {
+    transform: translateX(4px) scale(1.15);
+}
+
+.lash-cta .cta-button:active {
+    transform: translateY(0);
+}
+
+.lash-cta .cta-button:focus-visible {
+    outline: none;
+    box-shadow:
+        0 0 0 4px rgba(255, 255, 255, .35),
+        0 12px 30px rgba(0, 0, 0, .18);
+}
+
+.secondary-button-cta {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+    min-height: 52px;
+    padding: 0 1.7rem;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, .25);
+    color: var(--color-white);
+    background: transparent;
+    transition: all .35s ease;
+}
+
+.secondary-button-cta:hover {
+    background: rgba(255, 255, 255, .08);
+    transform: translateY(-2px);
+}
+
+.lash-cta-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.lash-cta-image img {
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 4/5;
+    object-fit: cover;
+    border-radius: 22px;
+    border: 6px solid rgba(255, 255, 255, .15);
+    box-shadow: 0 25px 70px rgba(0, 0, 0, .28);
+    transition: .45s ease;
+}
+
+.lash-cta-card:hover .lash-cta-image img {
+    transform: scale(1.03);
+}
