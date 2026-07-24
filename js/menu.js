@@ -1,4 +1,4 @@
-// Variáveis
+// === VARIÁVEIS ===
 const menuToggle = document.querySelector(".menu-toggle");
 const menuIcon = document.querySelector(".menu-icon");
 const navList = document.querySelector(".navigation-list");
@@ -6,7 +6,7 @@ const navLinks = document.querySelectorAll(".navigation-link");
 const currentPage = window.location.pathname.split("/").pop() || "index.html";
 const header = document.querySelector("header");
 
-// Alternar o underline do link clicado na navbar
+// === ALTERNAR O UNDERLINE DO LINK CLICADO NA NAVBAR ===
 const removeActiveLinks = () => {
   navLinks.forEach((link) => {
     link.classList.remove("active");
@@ -40,7 +40,7 @@ const getCurrentPage = () => {
 
 activateLink(getCurrentPage());
 
-// Menu de hambúrguer para dispositivos móveis
+// === MENU HAMBÚRGUER PARA DISPOSITIVOS MÓVEIS ===
 function openMenu() {
   navList.classList.add("is-active");
   menuToggle.setAttribute("aria-expanded", "true");
@@ -70,7 +70,7 @@ navLinks.forEach((link) => {
   });
 });
 
-// Efeito Sticky
+// === EFEITO STICKY ===
 window.addEventListener("scroll", () => {
   if (window.scrollY > 20) {
     header.classList.add("scrolled");
