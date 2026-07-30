@@ -1,0 +1,76 @@
+.hamburger {
+    display: none;
+    position: relative;
+    width: var(--hamburger-width);
+    height: var(--hamburger-height);
+    padding: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1200;
+}
+
+.hamburger:focus-visible {
+    outline: 2px solid var(--color-secondary);
+    outline-offset: 6px;
+}
+
+.hamburger:hover .hamburger__bar {
+    background: var(--color-primary-hover);
+}
+
+.hamburger.is-open:hover .hamburger__bar {
+    background: var(--color-primary-hover);
+}
+
+.hamburger__bar {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: var(--hamburger-bar-height);
+    background: var(--hamburger-color);
+    border-radius: 999px;
+    transform-origin: center;
+    transition:
+        transform var(--hamburger-transition),
+        opacity var(--hamburger-transition),
+        background-color var(--hamburger-transition);
+}
+
+.hamburger__bar:nth-child(1) {
+    top: 0;
+}
+
+.hamburger__bar:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hamburger__bar:nth-child(3) {
+    bottom: 0;
+}
+
+.hamburger.is-open .hamburger__bar:nth-child(1) {
+    top: 50%;
+    transform:
+        translateY(-50%) rotate(45deg);
+}
+
+.hamburger.is-open .hamburger__bar:nth-child(2) {
+    opacity: 0;
+    transform:
+        translateY(-50%) scaleX(.2);
+}
+
+.hamburger.is-open .hamburger__bar:nth-child(3) {
+    bottom: auto;
+    top: 50%;
+    transform:
+        translateY(-50%) rotate(-45deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hamburger__bar {
+        transition: none;
+    }
+}

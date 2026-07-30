@@ -67,4 +67,11 @@
     --space-xxl: 8rem;
     --btn-padding: 0.2rem 0.4rem;
     --btn-padding-lg: 0.4rem 0.6rem;
+
+    /* Botão Hambúrguer */
+    --hamburger-width: 28px;
+    --hamburger-height: 20px;
+    --hamburger-bar-height: 3px;
+    --hamburger-color: var(--color-primary);
+    --hamburger-transition: .35s cubic-bezier(.4, 0, .2, 1);
 }

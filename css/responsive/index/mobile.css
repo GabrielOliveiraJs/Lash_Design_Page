@@ -5,7 +5,7 @@
             position: relative;
         }
 
-        .menu-toggle {
+        .hamburger {
             display: block;
             z-index: 2200;
         }

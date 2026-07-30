@@ -22,7 +22,7 @@
           />
         </a>
 
-        <ul class="navigation-list">
+        <ul class="navigation-list" id="navMenu">
           <li class="navigation-item">
             <a class="navigation-link" href="#" data-page="home"> Início </a>
           </li>
@@ -79,11 +79,14 @@
         </a>
 
         <button
-          class="menu-toggle"
-          aria-label="Abrir menu"
+          class="hamburger"
+          aria-label="Abrir menu de navegação"
           aria-expanded="false"
+          aria-controls="navMenu"
         >
-          <i class="fa-solid fa-bars menu-icon"></i>
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
         </button>
       </nav>
     </header>

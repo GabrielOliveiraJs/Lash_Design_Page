@@ -1,10 +1,9 @@
 // === VARIÁVEIS ===
-const menuToggle = document.querySelector(".menu-toggle");
-const menuIcon = document.querySelector(".menu-icon");
 const navList = document.querySelector(".navigation-list");
 const navLinks = document.querySelectorAll(".navigation-link");
 const currentPage = window.location.pathname.split("/").pop() || "index.html";
 const header = document.querySelector("header");
+const hamburger = document.querySelector(".hamburger");
 
 // === ALTERNAR O UNDERLINE DO LINK CLICADO NA NAVBAR ===
 const removeActiveLinks = () => {
@@ -41,32 +40,38 @@ const getCurrentPage = () => {
 activateLink(getCurrentPage());
 
 // === MENU HAMBÚRGUER PARA DISPOSITIVOS MÓVEIS ===
-function openMenu() {
-  navList.classList.add("is-active");
-  menuToggle.setAttribute("aria-expanded", "true");
-  menuIcon.classList.remove("fa-bars");
-  menuIcon.classList.add("fa-xmark");
-}
+const setMenu = (open) => {
+  navList.classList.toggle("is-active", open);
+  hamburger.classList.toggle("is-open", open);
+  document.body.classList.toggle("menu-open", open);
+  hamburger.setAttribute("aria-expanded", open);
+  hamburger.setAttribute("aria-label", open ? "Fechar menu" : "Abrir menu");
+  navList.setAttribute("aria-hidden", !open);
+};
 
-function closeMenu() {
-  navList.classList.remove("is-active");
-  menuToggle.setAttribute("aria-expanded", "false");
-  menuIcon.classList.remove("fa-xmark");
-  menuIcon.classList.add("fa-bars");
-}
-
-menuToggle.addEventListener("click", () => {
-  if (navList.classList.contains("is-active")) {
-    closeMenu();
-  } else {
-    openMenu();
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    setMenu(false);
   }
+});
+
+document.addEventListener("click", (event) => {
+  const clickedMenu = navList.contains(event.target);
+  const clickedButton = hamburger.contains(event.target);
+  if (!clickedMenu && !clickedButton) {
+    setMenu(false);
+  }
+});
+
+hamburger.addEventListener("click", () => {
+  const open = !navList.classList.contains("is-active");
+  setMenu(open);
 });
 
 navLinks.forEach((link) => {
   link.addEventListener("click", () => {
     activateLink(link.dataset.page);
-    closeMenu();
+    setMenu(false);
   });
 });
 

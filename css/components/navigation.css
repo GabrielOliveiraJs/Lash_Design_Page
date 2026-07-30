@@ -48,7 +48,7 @@
 }
 
 
-.menu-toggle {
+.hamburger {
     display: none;
     padding: var(--btn-padding);
     font-size: var(--font-size-lg);
