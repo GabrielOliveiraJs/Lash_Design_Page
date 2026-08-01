@@ -135,10 +135,10 @@
             grid-template-columns: 1fr;
             grid-auto-rows: 240px;
         }
-
+/* 
         .course-gallery-large {
             grid-row: span 1;
-        }
+        } */
 
         .course-gallery-item figcaption {
             left: .8rem;
