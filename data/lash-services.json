@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "nome": "Clássico",
-    "imagem": "/images/lash-styles/classico.jpg",
+    "nome": "Volume Brasileiro",
+    "imagem": "/images/lash-styles/Volume_Brasileiro_Y.jpeg",
     "descricao": "Ideal para quem deseja um resultado delicado, elegante e natural, proporcionando maior definição ao olhar sem perder a leveza.",
     "preco": "R$ 150",
     "duracao": "2h30",
@@ -12,8 +12,8 @@
   },
   {
     "id": 2,
-    "nome": "Híbrido",
-    "imagem": "/images/lash-styles/hibrido.jpg",
+    "nome": "Volume Fox",
+    "imagem": "/images/lash-styles/Volume_Fox.jpeg",
     "descricao": "Combina fios clássicos e volume para criar um olhar mais preenchido, mantendo um aspecto leve e sofisticado.",
     "preco": "R$ 170",
     "duracao": "2h45",
@@ -23,8 +23,8 @@
   },
   {
     "id": 3,
-    "nome": "Volume Brasileiro",
-    "imagem": "/images/lash-styles/brasileiro.jpg",
+    "nome": "Volume 3D",
+    "imagem": "/images/lash-styles/Volume_3Dw.jpeg",
     "descricao": "Técnica que proporciona um olhar marcante utilizando fios em formato Y, oferecendo excelente preenchimento.",
     "preco": "R$ 180",
     "duracao": "2h30",
@@ -34,8 +34,8 @@
   },
   {
     "id": 4,
-    "nome": "Volume Egípcio",
-    "imagem": "/images/lash-styles/egipcio.jpg",
+    "nome": "Volume 4D",
+    "imagem": "/images/lash-styles/Volume_4Dw.jpeg",
     "descricao": "Cria um efeito elegante e volumoso através da aplicação de fios tecnológicos extremamente leves.",
     "preco": "R$ 190",
     "duracao": "3h",
@@ -45,8 +45,8 @@
   },
   {
     "id": 5,
-    "nome": "Volume Russo",
-    "imagem": "/images/lash-styles/russo.jpg",
+    "nome": "Volume 5D",
+    "imagem": "/images/lash-styles/Volume_5Dw.jpeg",
     "descricao": "Perfeito para quem deseja máxima densidade, glamour e um olhar extremamente expressivo.",
     "preco": "R$ 220",
     "duracao": "3h30",
@@ -56,8 +56,8 @@
   },
   {
     "id": 6,
-    "nome": "Mega Volume",
-    "imagem": "/images/lash-styles/mega-volume.jpg",
+    "nome": "Volume 6D",
+    "imagem": "/images/lash-styles/Volume_6D.jpeg",
     "descricao": "Resultado intenso com alta densidade de fios, ideal para quem ama um olhar impactante.",
     "preco": "R$ 240",
     "duracao": "4h",
@@ -67,24 +67,13 @@
   },
   {
     "id": 7,
-    "nome": "Fox Eyes",
-    "imagem": "/images/lash-styles/fox-eyes.jpg",
+    "nome": "Efeito Sirena",
+    "imagem": "/images/lash-styles/Efeito_sirena.jpeg",
     "descricao": "Mapeamento desenvolvido para alongar visualmente o olhar, proporcionando efeito elegante e sofisticado.",
     "preco": "R$ 200",
     "duracao": "3h",
     "manutencao": "15 a 20 dias",
     "efeito": "Alongado",
-    "categoria": "Efeito"
-  },
-  {
-    "id": 8,
-    "nome": "Wispy",
-    "imagem": "/images/lash-styles/wispy.jpg",
-    "descricao": "Mistura diferentes comprimentos de fios para criar textura e um acabamento moderno inspirado em celebridades.",
-    "preco": "R$ 210",
-    "duracao": "3h",
-    "manutencao": "15 a 20 dias",
-    "efeito": "Texturizado",
     "categoria": "Efeito"
   }
 ]
