@@ -31,7 +31,7 @@ function renderCards(services) {
     card.querySelector(".service-card-image").src = service.imagem;
     card.querySelector(".service-card-image").alt = service.nome;
     card.querySelector(".service-price").textContent = service.preco;
-    card.querySelector(".service-category").textContent = service.categoria;
+    // card.querySelector(".service-category").textContent = service.categoria;
     card.querySelector(".service-title").textContent = service.nome;
     card.querySelector(".service-description").textContent = service.descricao;
     card.querySelector(".service-duration").textContent =
