@@ -1,6 +1,166 @@
 [
   {
     "id": 1,
+    "nome": "Pulseira Auxiliar Para Extensão De Cílios - Hand Pallet Placa De mão Para Cílios",
+    "descricao": "Pulseira para Extensão de Cílios oferece praticidade para distinguir o comprimento dos fios, proporcionando maior agilidade aos profissionais.  ",
+    "imagem": "../images/products/Pulseira Auxiliar Para Extensão De Cílios.webp",
+    "recomendacao": "Recomendado pela May",
+    "link": "https://s.shopee.com.br/AUtCdnZKb2"
+  },
+  {
+    "id": 2,
+    "nome": "Porta Pinça De Cilios Acrilico Suporte Com 6 Furos",
+    "descricao": "Organize suas pinças com praticidade, segurança e muito charme! Ideal para profissionais de extensão de cílios, mantém suas pinças protegidas, organizadas e sempre à mão durante o atendimento",
+    "imagem": "../images/products/Porta Pinça De Cilios Acrilico Suporte Com 6 Furos.webp",
+    "recomendacao": "Recomendado pela May",
+    "link": "https://s.shopee.com.br/1gHo7Vm2AZ"
+  },
+  {
+    "id": 3,
+    "nome": "Pinça de Isolamento e Separação Profissional para Extensão de Cílios Fio a Fio em Aço Inox",
+    "descricao": "A Pinça de Isolamento Profissional é ideal para lash designers que buscam precisão, leveza e conforto durante o procedimento de alongamento de cílios fio a fio.",
+    "imagem": "../images/products/Pinça de Isolamento e Separação Profissional para Extensão de Cílios Fio a Fio em Aço Inox.webp",
+    "recomendacao": "Recomendado pela May",
+    "link": "https://s.shopee.com.br/4fvPgsn35H"
+  },
+  {
+    "id": 4,
+    "nome": "200 Lenços Para Limpeza de Pinças e Bico de Cola Sem Fiapos Toalhetes Para Limpeza",
+    "descricao": "Pote de Lenços Para Limpeza de Pinças e Bico da Cola com 200 unidades",
+    "imagem": "../images/products/200 Lenços Para Limpeza de Pinças e Bico de Cola Sem Fiapos Toalhetes Para Limpeza.jfif",
+    "recomendacao": "Recomendado pela May",
+    "link": "https://s.shopee.com.br/4fvPgqNazC"
+  },
+  {
+    "id": 5,
+    "nome": "Kit Fitas Micropore Antialérgica Alongamento e Extensão Cílios 10m",
+    "descricao": "A Fita Micropore Antialérgica é uma aliada indispensável para profissionais de extensão e alongamento de cílios que buscam uma fixação segura e confortável.",
+    "imagem": "../images/products/Kit Fitas Micropore Antialérgica Alongamento e Extensão Cílios 10m.webp",
+    "recomendacao": "Recomendado pela May",
+    "link": "https://s.shopee.com.br/9KhFFOBAui"
+  },
+  {
+    "id": 6,
+    "nome": "Kit Limpeza Extensão de Cílios Com Pump Espumador Pincel e Pisseta Rosa",
+    "descricao": "Kit Profissional de Higienização de Cílios",
+    "imagem": "../images/products/Kit Limpeza Extensão de Cílios Com Pump Espumador Pincel e Pisseta Rosa.webp",
+    "recomendacao": "Recomendado pela May",
+    "link": "https://s.shopee.com.br/6pzuGk8ZEh"
+  },
+  {
+    "id": 7,
+    "nome": "Ring Light 6 8 10 12 polegadas Completo Portátil 26cm",
+    "descricao": "Ring Light 6 8 10 12 polegadas Completo Portátil 26cm + Tripé + suporte p/ celular. - Cabo-Usb",
+    "imagem": "../images/products/Ring Light 6 8 10 12 polegadas Completo Portátil 26cm.webp",
+    "recomendacao": "Recomendado pela May",
+    "link": "https://s.shopee.com.br/2BE4i2C6Un"
+  },
+  {
+    "id": 8,
+    "nome": "Macas Para Esteticista",
+    "descricao": "Macas Para Esteticista - Portátil Dobrável C/ Alças Suporta 200Kg",
+    "imagem": "../images/products/Macas Para Esteticista - Portátil Dobrável Alças Suporta 200Kg.webp",
+    "recomendacao": "Recomendado pela May",
+    "link": "https://s.shopee.com.br/AAGMEeWC3T"
+  },
+  {
+    "id": 9,
+    "nome": "Almofada Travesseiro Protetor P/ Pescoço Leitura, Viagem ou Descanço",
+    "descricao": "Almofadas de apoio de pescoço medem 30x28 cm (medidas aproximadas), podendo ser utilizado tanto por criança como por adulto. Ideal para usar em viagens longas e cansativas.",
+    "imagem": "../images/products/Almofada Travesseiro Protetor Pescoço Leitura, Viagem ou Descanço.jfif",
+    "recomendacao": "Recomendado pela May",
+    "link": "https://s.shopee.com.br/7psRSIcIAe"
+  },
+  {
+    "id": 10,
+    "nome": "Marcador Caneta Permanente Ponta Dupla",
+    "descricao": "Marcador Caneta Permanente Ponta Dupla Jocar Preto Com 1 Unidade ou caixa com 12 unidades",
+    "imagem": "../images/products/Marcador Caneta Permanente Ponta Dupla.webp",
+    "recomendacao": "Recomendado pela May",
+    "link": "https://s.shopee.com.br/3qMIguAT75"
+  },
+  {
+    "id": 11,
+    "nome": "Kit Cabeça De Treino 5 Pares De Cílios Treino Extensão Fio",
+    "descricao": "Os cílios para treinamento são perfeitos para as profissionais extensionistas iniciantes, pois auxiliam no aperfeiçoamento da prática, podendo ser utilizadas juntamente com as cabeças de treino. O tamanho dos cílios postiços é aproximado ao fio natural, proporcionando maior realismo para o seu treino.",
+    "imagem": "../images/products/Kit Cabeça De Treino 5 Pares De Cílios Treino Extensão Fio.jfif",
+    "recomendacao": "Recomendado pela May",
+    "link": "https://s.shopee.com.br/2Vqv6OhQ8r"
+  },
+  {
+    "id": 12,
+    "nome": "Removedor De Cola Para Extensão de Cilios Funmix 5g Creme Sabor Frutas",
+    "descricao": "Remova extensões de cílios com mais segurança, praticidade e conforto! O removedor em creme Funmix é ideal para quem busca uma remoção eficiente, sem escorrer e sem ardência.",
+    "imagem": "../images/products/Removedor De Cola Para Extensão de Cilios Funmix 5g Creme Sabor Frutas.webp",
+    "recomendacao": "Recomendado pela May",
+    "link": "https://s.shopee.com.br/2BE4hjbEtx"
+  },
+  {
+    "id": 13,
+    "nome": "Esparadrapo impermeável branco 2,5cmx4,5m",
+    "descricao": "Esparadrapo impermeável branco 2,5cmx4,5m - Missner kit com 3 unidades",
+    "imagem": "../images/products/Esparadrapo impermeável branco 2,5cmx4,5m.webp",
+    "recomendacao": "Recomendado pela May",
+    "link": "https://s.shopee.com.br/5q7N4RNx3M"
+  },
+  {
+    "id": 14,
+    "nome": "KIT Gel Pads Adesivos em Gel Protetores de Pálpebras para Extensão de Cílios",
+    "descricao": "50 Pares  de Protetor de Pálpebras para Alongamento/Extensão de Cílios (Também conhecido como Gel Pad)",
+    "imagem": "../images/products/KIT Gel Pads Adesivos em Gel Protetores de Pálpebras para Extensão de Cílios.webp",
+    "recomendacao": "Recomendado pela May",
+    "link": "https://s.shopee.com.br/1Lexi6ttgP"
+  },
+  {
+    "id": 15,
+    "nome": "Agitador Elétrico de Cola para Cílios Extensão e Esmalte, Automático e Portátil",
+    "descricao": "Agitador de Cola para Extensão de Cílios Elétrico Recarregável | Misturador Automático de Adesivo para Cílios e Esmalte | Acelera a Mistura, Salva Tempo para Lash Artists Profissionais e Iniciantes | Inclui Adaptadores de Tamanhos Variados, Compacto e Portátil",
+    "imagem": "../images/products/Agitador Elétrico de Cola para Cílios Extensão e Esmalte, Automático e Portátil.webp",
+    "recomendacao": "Recomendado pela May",
+    "link": "https://s.shopee.com.br/AUtCcumkR1"
+  },
+  {
+    "id": 16,
+    "nome": "Mini Ventilador Portátil Recarregável USB",
+    "descricao": "Mini Ventilador Portátil Recarregável USB 3 Velocidades Silencioso Compacto e Ideal para Bolsa Escritório e Viagem",
+    "imagem": "../images/products/Mini Ventilador Portátil Recarregável USB.webp",
+    "recomendacao": "Recomendado pela May",
+    "link": "https://s.shopee.com.br/qih772MHo"
+  },
+  {
+    "id": 17,
+    "nome": "Kit Completo Rosa com 100 Toucas TNT + 100 Luvas TPE Soft Descartáveis",
+    "descricao": "O Kit Rosa Completo foi desenvolvido para quem busca segurança, conforto e excelente apresentação no dia a dia profissional ou doméstico. Ideal para salões de beleza, clínicas, estética, tatuagem, cozinha, limpeza, laboratórios, barbearias e muito mais!",
+    "imagem": "../images/products/Kit Completo Rosa com 100 Toucas TNT + 100 Luvas TPE Soft Descartáveis.webp",
+    "recomendacao": "Recomendado pela May",
+    "link": "https://s.shopee.com.br/6L3dfBQUV8"
+  },
+  {
+    "id": 18,
+    "nome": "Kit 100 TOUCAS DESCARTÁVEIS TNT Com Proteção Par Cabelo Salão, Estética & Cozinha",
+    "descricao": "Fabricada em material leve, resistente e de excelente qualidade, a touca se adapta a diferentes tamanhos e volumes de cabelo, oferecendo segurança, conforto e praticidade no uso diário. Seu elástico reforçado proporciona ajuste perfeito sem incomodar, e o material em TNT garante maior respirabilidade.",
+    "imagem": "../images/products/Kit 100 TOUCAS DESCARTÁVEIS TNT Com Proteção Par Cabelo Salão, Estética & Cozinha.webp",
+    "recomendacao": "Recomendado pela May",
+    "link": "https://s.shopee.com.br/AKZmQRe5Lz"
+  },
+  {
+    "id": 19,
+    "nome": "New show Placa de Medidas para Extensão de Cílios + Suporte Organizador Acrílico",
+    "descricao": "Perfeita para Lash Designers que buscam organização, praticidade e rapidez no atendimento! A placa conta com marcações precisas de 7mm a 15mm, facilitando a separação dos fios e garantindo um trabalho mais ágil e profissional.",
+    "imagem": "../images/products/New show Placa de Medidas para Extensão de Cílios + Suporte Organizador Acrílico.webp",
+    "recomendacao": "Recomendado pela May",
+    "link": "https://s.shopee.com.br/19a7PNF1b"
+  },
+  {
+    "id": 20,
+    "nome": "Fita Magica 12MM X 10M 3M SCOTCH C/ Dispenser",
+    "descricao": "A Fita Mágica Scotch é ideal para uso em escritórios. Indicada para reparar documentos, identificar objetivos e fazer emendas. Aceita escrita de lápis e caneta e não aparece em fotocópias e scanner.",
+    "imagem": "../images/products/Fita Magica 12MM X 10M 3M SCOTCH Dispenser.webp",
+    "recomendacao": "Recomendado pela May",
+    "link": "https://s.shopee.com.br/4VbzTdOiNn"
+  },
+  {
+    "id": 1,
     "nome": "Pinça Precision Gold Pro",
     "descricao": "Pinça de alta precisão para isolamento e aplicação de fios com máximo controle.",
     "imagem": "https://picsum.photos/seed/lash1/600/600",
@@ -54,6 +214,30 @@
     "imagem": "https://picsum.photos/seed/lash7/600/600",
     "recomendacao": "Recomendado pela May",
     "link": "https://maysouzabeauty.com/produtos/microbrush-soft-touch"
+  },
+  {
+    "id": 8,
+    "nome": "Fita Micropore Comfort",
+    "descricao": "Fita hipoalergênica para isolamento confortável dos cílios inferiores.",
+    "imagem": "https://picsum.photos/seed/lash8/600/600",
+    "recomendacao": "Recomendado pela May",
+    "link": "https://maysouzabeauty.com/produtos/fita-micropore-comfort"
+  },
+  {
+    "id": 9,
+    "nome": "Nano Mister Refresh",
+    "descricao": "Nebulizador portátil que auxilia na cura do adesivo após a aplicação.",
+    "imagem": "https://picsum.photos/seed/lash9/600/600",
+    "recomendacao": "Recomendado pela May",
+    "link": "https://maysouzabeauty.com/produtos/nano-mister-refresh"
+  },
+  {
+    "id": 10,
+    "nome": "Kit Escovinhas Premium",
+    "descricao": "Escovinhas descartáveis macias para acabamento e manutenção das extensões.",
+    "imagem": "https://picsum.photos/seed/lash10/600/600",
+    "recomendacao": "Recomendado pela May",
+    "link": "https://maysouzabeauty.com/produtos/kit-escovinhas-premium"
   },
   {
     "id": 8,
