@@ -46,7 +46,7 @@
       content="https://maysouzabeauty.vercel.app/images/open-graph/lashes-og.png"
     />
 
-    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
 
@@ -79,7 +79,7 @@
     />
 
     <!-- ========================= FAVICON ========================== -->
-    <link rel="icon" type="image/png" href="./images/logo.jpeg" />
+    <link rel="icon" type="image/jpeg" href="./images/logo.jpeg" />
     <!-- ========================= FONT AWESOME ========================== -->
     <script
       src="https://kit.fontawesome.com/0c2e64d2bb.js"
@@ -87,6 +87,40 @@
     ></script>
     <!-- ========================= CSS ========================== -->
     <link rel="stylesheet" href="/css/styles.css" />
+    <!-- ========================= Schema.org ========================== -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://maysouzabeauty.vercel.app/lash-service.html#webpage",
+            "url": "https://maysouzabeauty.vercel.app/lash-service.html",
+            "name": "Extensão de Cílios e Estilos em Presidente Prudente | May Souza Beauty",
+            "description": "Conheça os estilos de extensão de cílios realizados pela May Souza Beauty em Presidente Prudente - SP e encontre a técnica ideal para valorizar o seu olhar.",
+            "inLanguage": "pt-BR",
+            "about": {
+              "@id": "https://maysouzabeauty.vercel.app/#organization"
+            }
+          },
+          {
+            "@type": "Service",
+            "@id": "https://maysouzabeauty.vercel.app/lash-service.html#service",
+            "name": "Extensão de cílios",
+            "description": "Serviço de extensão de cílios com atendimento personalizado e diferentes técnicas e efeitos.",
+            "serviceType": "Extensão de cílios",
+            "provider": {
+              "@id": "https://maysouzabeauty.vercel.app/#organization"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Presidente Prudente"
+            },
+            "url": "https://maysouzabeauty.vercel.app/lash-service.html"
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <header class="site-header">
@@ -117,7 +151,7 @@
           </li>
 
           <li class="navigation-item">
-            <a class="navigation-link" href="#" data-page="styles">
+            <a class="navigation-link" href="./lash-service.html" data-page="styles">
               Aplicações
             </a>
           </li>
@@ -637,7 +671,7 @@
               <a class="footer-links" href="./about-the-course.html">Curso</a>
             </li>
             <li class="footer-item">
-              <a class="footer-links" href="#">Cílios</a>
+              <a class="footer-links" href="./lash-service.html">Cílios</a>
             </li>
             <li class="footer-item">
               <a class="footer-links" href="./products-page.html">Materiais</a>
