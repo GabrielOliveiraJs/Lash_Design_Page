@@ -21,6 +21,7 @@
 @import url("./sections/index/services.css");
 @import url("./sections/index/testimonials.css");
 @import url("./sections/index/contact.css");
+@import url("./sections/legal/legal-pages.css");
 
 /* About The Course */
 @import url("./sections/about-the-course/hero.css");
