@@ -33,11 +33,15 @@ const getCurrentPage = () => {
     case "products-page.html":
       return "products";
     default:
-      return "home";
+      return null;
   }
 };
 
-activateLink(getCurrentPage());
+const activePage = getCurrentPage();
+
+if (activePage) {
+  activateLink(activePage);
+}
 
 // === MENU HAMBÚRGUER PARA DISPOSITIVOS MÓVEIS ===
 const setMenu = (open) => {
@@ -46,7 +50,6 @@ const setMenu = (open) => {
   document.body.classList.toggle("menu-open", open);
   hamburger.setAttribute("aria-expanded", open);
   hamburger.setAttribute("aria-label", open ? "Fechar menu" : "Abrir menu");
-  navList.setAttribute("aria-hidden", !open);
 };
 
 document.addEventListener("keydown", (event) => {
